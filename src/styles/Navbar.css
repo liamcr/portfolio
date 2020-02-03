@@ -1,0 +1,40 @@
+.navbar-container {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  position: fixed;
+  z-index: 3;
+  transition: color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.leading-navbar-items {
+  flex: 1;
+}
+
+.trailing-navbar-items {
+  display: flex;
+}
+
+.leading-navbar-items,
+.trailing-navbar-items {
+  align-items: center;
+}
+
+.trailing-navbar-items {
+  margin-right: 5px;
+}
+
+.navbar-item {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20pt;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  background-color: black;
+  color: white;
+}
