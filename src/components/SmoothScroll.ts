@@ -1,3 +1,12 @@
+function getVh(valInVH: number) {
+  let viewHeight = Math.max(
+    document.documentElement.clientHeight,
+    window.innerHeight || 0
+  );
+
+  return (valInVH / 100) * viewHeight;
+}
+
 export function scrollTo(elementId: string, duration: number) {
   let target = document.getElementById(elementId);
 
@@ -47,8 +56,8 @@ export function scrollTo(elementId: string, duration: number) {
     targetY = delta;
   }
 
-  // Offset by 64px (Height of header)
-  // targetY -= 64;
+  // Offset by 10vh (Height of navbar)
+  targetY -= getVh(10);
 
   let startTime = Date.now();
   let percentage = 0;

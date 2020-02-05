@@ -47,19 +47,28 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
         >
           About
         </div>
-        <div className="navbar-item" onClick={() => handleNavClick("skills")}>
+        <div
+          className="navbar-item"
+          onClick={() => handleNavClick("skills-container")}
+        >
           Skills
         </div>
         <div
           className="navbar-item"
-          onClick={() => handleNavClick("experience")}
+          onClick={() => handleNavClick("experience-container")}
         >
           Work Experience
         </div>
-        <div className="navbar-item" onClick={() => handleNavClick("projects")}>
+        <div
+          className="navbar-item"
+          onClick={() => handleNavClick("projects-container")}
+        >
           Projects
         </div>
-        <div className="navbar-item" onClick={() => handleNavClick("contact")}>
+        <div
+          className="navbar-item"
+          onClick={() => handleNavClick("contact-container")}
+        >
           Contact
         </div>
       </div>
