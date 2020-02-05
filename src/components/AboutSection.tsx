@@ -7,7 +7,7 @@ const AboutSection: React.FC = () => {
   return (
     <div className="about-container" id="about-container">
       <SectionHeader content="About Me" />
-      <div className="content-container">
+      <div className="about-content-container">
         <img className="about-image" src={AboutImage} alt="Me" />
         <div className="about-content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

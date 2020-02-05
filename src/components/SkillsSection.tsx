@@ -6,7 +6,7 @@ const SkillsSection: React.FC = () => {
   return (
     <div className="skills-container" id="skills-container">
       <SectionHeader content="My Skills" />
-      <div className="content-container"></div>
+      <div className="skills-content-container"></div>
     </div>
   );
 };
