@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { scrollTo } from "../components/SmoothScroll";
+import { scrollTo } from "../custom/functions";
 import { homeURL } from "../config.json";
 import "../styles/Navbar.css";
 

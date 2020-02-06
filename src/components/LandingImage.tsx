@@ -1,7 +1,7 @@
 import React from "react";
 import landingImage from "../assets/LandingImage.jpg";
 import DownArrow from "../assets/downArrow.svg";
-import { scrollTo } from "./SmoothScroll";
+import { scrollTo } from "../custom/functions";
 import "../styles/LandingImage.css";
 import "../styles/BouncingArrow.css";
 

@@ -1,5 +1,27 @@
+.project-preview-container {
+  display: flex;
+  align-items: center;
+}
+
+.projects-content-container .project-preview-container:not(:last-child) {
+  margin-bottom: 24px;
+}
+
 .project-preview-header {
   font-family: "Lato", sans-serif;
   font-weight: 600;
   font-size: 24pt;
+}
+
+.project-preview-date {
+  font-family: "Open Sans", sans-serif;
+  color: #4f4f4f;
+}
+
+.project-preview-technologies-container {
+  margin-bottom: 16px;
+}
+
+.project-preview-image {
+  max-width: 40%;
 }
