@@ -1,0 +1,21 @@
+.technology-preview {
+  text-align: center;
+}
+
+.icon-background {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.technology-icon {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.technology-name {
+  font-family: "Open Sans", sans-serif;
+  color: #4f4f4f;
+}

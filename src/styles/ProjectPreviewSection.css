@@ -11,6 +11,7 @@
   font-family: "Lato", sans-serif;
   font-weight: 600;
   font-size: 24pt;
+  margin-bottom: 4px;
 }
 
 .project-preview-date {
@@ -19,7 +20,8 @@
 }
 
 .project-preview-technologies-container {
-  margin-bottom: 16px;
+  margin-bottom: 36px;
+  display: flex;
 }
 
 .project-preview-image {

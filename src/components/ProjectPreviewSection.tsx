@@ -1,6 +1,7 @@
 import React from "react";
 import { ProjectObj } from "../custom/types";
 import "../styles/ProjectPreviewSection.css";
+import TechnologyPreview from "./TechnologyPreview";
 
 type ProjectPreviewProps = {
   projectObj: ProjectObj;
@@ -30,7 +31,11 @@ const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
       >
         <div className="project-preview-header">{projectObj.title}</div>
         <div className="project-preview-date">{projectObj.date}</div>
-        <div className="project-preview-technologies-container"></div>
+        <div className="project-preview-technologies-container">
+          {projectObj.technologies.map((technology, index) => (
+            <TechnologyPreview key={index} technologyID={technology} />
+          ))}
+        </div>
         <div className="project-preview-description">
           {projectObj.description}
         </div>
