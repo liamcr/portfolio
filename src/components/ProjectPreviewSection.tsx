@@ -1,5 +1,6 @@
 import React from "react";
 import { ProjectObj } from "../custom/types";
+import { Button } from "@material-ui/core";
 import "../styles/ProjectPreviewSection.css";
 import TechnologyPreview from "./TechnologyPreview";
 
@@ -24,8 +25,8 @@ const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
       <div
         className="project-preview-content"
         style={{
-          padding: `0 ${imageOnLeft ? "0" : "36px"} 0 ${
-            imageOnLeft ? "36px" : "0"
+          padding: `0 ${imageOnLeft ? "0" : "48px"} 0 ${
+            imageOnLeft ? "48px" : "0"
           }`
         }}
       >
@@ -38,6 +39,15 @@ const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
         </div>
         <div className="project-preview-description">
           {projectObj.description}
+        </div>
+        <div className="project-preview-buttons">
+          <Button disabled>Learn More</Button>
+          <Button color="primary" href={projectObj.url}>
+            Live Demo
+          </Button>
+          <Button color="primary" href={projectObj.repoURL}>
+            Visit Repo
+          </Button>
         </div>
       </div>
       {!imageOnLeft && (

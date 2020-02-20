@@ -61,7 +61,7 @@ export function scrollTo(elementId: string, duration: number) {
   }
 
   // Offset by 10vh (Height of navbar)
-  targetY -= getVh(10);
+  targetY -= getVh(10) - 1;
 
   let startTime = Date.now();
   let percentage = 0;

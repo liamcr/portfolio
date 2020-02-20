@@ -1,0 +1,48 @@
+.experience-card-container {
+  display: flex;
+  align-items: center;
+  background-color: #fbfbfb;
+  padding: 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.experience-container .experience-card-container:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.experience-header-info div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.job-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 24pt;
+}
+
+.company {
+  font-family: "Lato", sans-serif;
+  font-size: 18pt;
+}
+
+.location-and-dates {
+  font-family: "Open Sans", sans-serif;
+  color: #6b6b6b;
+}
+
+.logo-container {
+  width: 10vw;
+  height: 8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.experience-header-info {
+  margin-left: 48px;
+}

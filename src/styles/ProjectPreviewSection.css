@@ -4,7 +4,7 @@
 }
 
 .projects-content-container .project-preview-container:not(:last-child) {
-  margin-bottom: 24px;
+  margin-bottom: 36px;
 }
 
 .project-preview-header {
@@ -26,4 +26,10 @@
 
 .project-preview-image {
   max-width: 40%;
+}
+
+.project-preview-description {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 16px;
 }
