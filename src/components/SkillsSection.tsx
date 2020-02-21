@@ -7,11 +7,20 @@ import { useMediaQuery } from "@material-ui/core";
 
 const SkillsSection: React.FC = () => {
   const skillIDs = [
+    "javascript",
     "reactjs",
     "firebase",
-    "materialUI",
-    "javascript",
-    "spotifyAPI"
+    "nodejs",
+    "git",
+    "awsLambda",
+    "docker",
+    "kubernetes",
+    "python",
+    "swift",
+    "awsDynamoDB",
+    "awsS3",
+    "awsSageMaker",
+    "c"
   ];
 
   const largeScreen = useMediaQuery("(min-width:1050px)");
