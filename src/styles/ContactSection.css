@@ -1,3 +1,21 @@
 .contact-container {
   padding: 10vh 20vw;
 }
+
+.contact-content-container {
+  display: flex;
+}
+
+.contact-option {
+  flex: 1;
+}
+
+.contact-header {
+  font-family: "Lato", sans-serif;
+  font-size: 20pt;
+  margin-bottom: 16px;
+}
+
+.contact-button-text {
+  margin-left: 8px;
+}
