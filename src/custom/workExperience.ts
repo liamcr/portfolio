@@ -11,7 +11,7 @@ export const workExperience = [
     companyImage: WSIBLogo
   },
   {
-    jobTitle: "Jr. Systems Developepr (Co-op)",
+    jobTitle: "Jr. Systems Developer (Co-op)",
     company: "The Co-operators",
     location: "Guelph, ON",
     timeFrame: "May 2019 - Aug 2019",

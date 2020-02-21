@@ -8,26 +8,50 @@ import JavaScript from "../assets/technologyIcons/javascript.png";
 export const technologies = {
   javascript: {
     displayName: "JavaScript",
-    imageReference: JavaScript
+    imageReference: JavaScript,
+    timeExperienced: "1 yr, 6 mos.",
+    experienceType: "Work Experience",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
   },
   reactjs: {
     displayName: "React.js",
-    imageReference: React
+    imageReference: React,
+    timeExperienced: "8 mos.",
+    experienceType: "Work Experience",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
   },
   materialUI: {
     displayName: "Material UI",
-    imageReference: MaterialUI
+    imageReference: MaterialUI,
+    timeExperienced: "2 mos.",
+    experienceType: "Personal Projects",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
   },
   spotifyAPI: {
     displayName: "Spotify API",
-    imageReference: SpotifyAPI
+    imageReference: SpotifyAPI,
+    timeExperienced: "1 yr, 6 mos.",
+    experienceType: "Personal Projects",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
   },
   firebase: {
     displayName: "Firebase",
-    imageReference: Firebase
+    imageReference: Firebase,
+    timeExperienced: "8 mos.",
+    experienceType: "Work Experience",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
   },
   redditAPI: {
     displayName: "Reddit API",
-    imageReference: RedditAPI
+    imageReference: RedditAPI,
+    timeExperienced: "8 mos.",
+    experienceType: "Personal Projects",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
   }
 };
