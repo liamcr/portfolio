@@ -11,7 +11,11 @@ function getVh(valInVH: number) {
   return (valInVH / 100) * viewHeight;
 }
 
-export function scrollTo(elementId: string, duration: number) {
+export function scrollTo(
+  elementId: string,
+  duration: number,
+  isNavBar?: boolean
+) {
   let target = document.getElementById(elementId);
 
   if (target === null) {
@@ -61,7 +65,9 @@ export function scrollTo(elementId: string, duration: number) {
   }
 
   // Offset by 10vh (Height of navbar)
-  targetY -= getVh(10) - 1;
+  if (isNavBar !== false) {
+    targetY -= getVh(10) - 1;
+  }
 
   let startTime = Date.now();
   let percentage = 0;

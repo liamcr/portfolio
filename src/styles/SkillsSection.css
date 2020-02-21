@@ -2,3 +2,8 @@
   background-color: hsl(240, 100%, 98%);
   padding: 10vh 20vw;
 }
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000000;
+}

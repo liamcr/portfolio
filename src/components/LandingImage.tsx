@@ -4,8 +4,11 @@ import DownArrow from "../assets/downArrow.svg";
 import { scrollTo } from "../custom/functions";
 import "../styles/LandingImage.css";
 import "../styles/BouncingArrow.css";
+import { useMediaQuery } from "@material-ui/core";
 
 const LandingImage: React.FC = () => {
+  const isNavBar = !useMediaQuery("(max-width: 700px)");
+
   return (
     <div className="landing-image-container">
       <img className="landing-image" src={landingImage} alt="Liam Crocket" />
@@ -19,7 +22,7 @@ const LandingImage: React.FC = () => {
         <div
           className="bouncing-down-arrow"
           style={{ backgroundImage: `url(${DownArrow})` }}
-          onClick={() => scrollTo("about-container", 500)}
+          onClick={() => scrollTo("about-container", 500, isNavBar)}
         ></div>
       </div>
     </div>

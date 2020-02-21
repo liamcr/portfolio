@@ -3,6 +3,7 @@ import SectionHeader from "./SectionHeader";
 import Slider from "react-slick";
 import "../styles/SkillsSection.css";
 import SkillCard from "./SkillCard";
+import { useMediaQuery } from "@material-ui/core";
 
 const SkillsSection: React.FC = () => {
   const skillIDs = [
@@ -13,10 +14,13 @@ const SkillsSection: React.FC = () => {
     "spotifyAPI"
   ];
 
+  const largeScreen = useMediaQuery("(min-width:1050px)");
+  const mediumScreen = useMediaQuery("(min-width:750px)");
+
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: largeScreen ? 3 : mediumScreen ? 2 : 1,
     arrows: true,
     focusOnSelect: true
   };

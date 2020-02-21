@@ -46,3 +46,12 @@
 .experience-header-info {
   margin-left: 48px;
 }
+
+@media only screen and (max-width: 750px) {
+  .logo-container {
+    display: none;
+  }
+  .experience-header-info {
+    margin: 0;
+  }
+}

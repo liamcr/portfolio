@@ -33,3 +33,13 @@
   line-height: 1.5;
   margin-bottom: 16px;
 }
+
+@media only screen and (max-width: 750px) {
+  .project-preview-image {
+    display: none;
+  }
+
+  .project-preview-content {
+    padding: 0 !important;
+  }
+}
