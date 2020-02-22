@@ -7,7 +7,7 @@ import "../styles/BouncingArrow.css";
 import { useMediaQuery } from "@material-ui/core";
 
 const LandingImage: React.FC = () => {
-  const isNavBar = !useMediaQuery("(max-width: 700px)");
+  const isNavBar = useMediaQuery("(min-width: 700px)");
 
   return (
     <div className="landing-image-container">
