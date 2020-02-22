@@ -51,7 +51,21 @@
   .logo-container {
     display: none;
   }
+
   .experience-header-info {
     margin: 0;
+  }
+
+  .job-title {
+    font-size: 14pt;
+  }
+
+  .company {
+    font-family: "Lato", sans-serif;
+    font-size: 12pt;
+  }
+
+  .location-and-dates {
+    font-size: 8pt;
   }
 }
