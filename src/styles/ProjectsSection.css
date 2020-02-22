@@ -2,3 +2,8 @@
   background-color: hsl(240, 100%, 98%);
   padding: 10vh 20vw;
 }
+
+.load-more-container {
+  display: flex;
+  justify-content: center;
+}
