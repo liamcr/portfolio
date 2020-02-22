@@ -27,7 +27,7 @@ const SkillsSection: React.FC = () => {
   const mediumScreen = useMediaQuery("(min-width:750px)");
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: largeScreen ? 3 : mediumScreen ? 2 : 1,
     arrows: true,
