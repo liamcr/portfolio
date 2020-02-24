@@ -23,7 +23,7 @@ export const technologies = {
     timeExperienced: "1 yr., 6 mos.",
     experienceType: "Work Experience",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Developed in JavaScript for my web-based personal projects, school projects, and I also have experience using it in a professional setting during my time at WSIB's Innovation Lab."
   },
   reactjs: {
     displayName: "React.js",
@@ -31,7 +31,7 @@ export const technologies = {
     timeExperienced: "8 mos.",
     experienceType: "Work Experience",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Developed a couple of web-based personal projects using React, and used it heavily during my time at WSIB's Innovation Lab."
   },
   materialUI: {
     displayName: "Material UI",
@@ -55,7 +55,7 @@ export const technologies = {
     timeExperienced: "8 mos.",
     experienceType: "Work Experience",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Used Firebase as the backend to my One Word Stories project. Also used it as a backend tool the WSIB Innovation Lab's website."
   },
   redditAPI: {
     displayName: "Reddit API",
@@ -71,7 +71,7 @@ export const technologies = {
     timeExperienced: "4 mos.",
     experienceType: "Personal Projects",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Used Node.js to develop my One Word Stories project. I also have experience using this for web-based school assignments."
   },
   git: {
     displayName: "Git",
@@ -79,7 +79,7 @@ export const technologies = {
     timeExperienced: "2 yrs.",
     experienceType: "Work Experience",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "I use Git as the version control system for all of my personal and academic projects. I also used it during my time at both The Co-operators and WSIB's Innovation Lab."
   },
   awsLambda: {
     displayName: "AWS Lambda",
@@ -87,7 +87,7 @@ export const technologies = {
     timeExperienced: "1 mo.",
     experienceType: "Personal Projects",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Used AWS Lambda to write cloud functions to fetch data from my database for my Smash API side project."
   },
   docker: {
     displayName: "Docker",
@@ -95,7 +95,7 @@ export const technologies = {
     timeExperienced: "1 mo.",
     experienceType: "Work Experience",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Used Docker to containerize my projects during my term at WSIB's Innovation Lab."
   },
   kubernetes: {
     displayName: "Kubernetes",
@@ -103,7 +103,7 @@ export const technologies = {
     timeExperienced: "1 mo.",
     experienceType: "Work Experience",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Used Kubernetes (along with Docker) to containerize projects at the WSIB Innovation Lab."
   },
   python: {
     displayName: "Python",
@@ -111,7 +111,7 @@ export const technologies = {
     timeExperienced: "3 yrs.",
     experienceType: "Work Experience",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Used Python while at WSIB's Innovation Lab to create a machine learning model using scikit-learn that determined whether or not a user was fatigued based only on their motion data."
   },
   swift: {
     displayName: "Swift",
@@ -119,15 +119,14 @@ export const technologies = {
     timeExperienced: "2 mos.",
     experienceType: "Work Experience",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Developed an iOS app in Swift that used machine learning to determine whether a worker was getting fatigued."
   },
   awsDynamoDB: {
     displayName: "AWS DynamoDB",
     imageReference: AWSDynamoDB,
     timeExperienced: "1 mo.",
     experienceType: "Personal Projects",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+    description: "AWS DynamoDB was used as a backend for my Smash API project."
   },
   awsS3: {
     displayName: "AWS S3",
@@ -135,7 +134,7 @@ export const technologies = {
     timeExperienced: "2 mos.",
     experienceType: "Work Experience",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "S3 was used for file storing for both my work with WSIB, but also for my Smash API project."
   },
   awsSageMaker: {
     displayName: "AWS SageMaker",
@@ -143,7 +142,7 @@ export const technologies = {
     timeExperienced: "1 mo.",
     experienceType: "Work Experience",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "SageMaker was used to train a machine learning model to determine whether or not a user was fatigued based only on their motion data."
   },
   c: {
     displayName: "C",
@@ -151,6 +150,6 @@ export const technologies = {
     timeExperienced: "3 yrs.",
     experienceType: "School Projects",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "I used C as the primary programming language for school projects. I have experience writing shared libraries in C that can be used for larger-scale applications."
   }
 };
