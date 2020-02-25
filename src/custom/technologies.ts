@@ -15,6 +15,7 @@ import AWSDynamoDB from "../assets/technologyIcons/dynamoDB.png";
 import AWSS3 from "../assets/technologyIcons/awsS3.png";
 import AWSSageMaker from "../assets/technologyIcons/awsSageMaker.png";
 import C from "../assets/technologyIcons/c.png";
+import TypeScript from "../assets/technologyIcons/typescript.png";
 
 export const technologies = {
   javascript: {
@@ -119,7 +120,7 @@ export const technologies = {
     timeExperienced: "2 mos.",
     experienceType: "Work Experience",
     description:
-      "Developed an iOS app in Swift that used machine learning to determine whether a worker was getting fatigued."
+      "Developed an iOS app in Swift that used machine learning to determine whether or not a worker was getting fatigued."
   },
   awsDynamoDB: {
     displayName: "AWS DynamoDB",
@@ -151,5 +152,13 @@ export const technologies = {
     experienceType: "School Projects",
     description:
       "I used C as the primary programming language for school projects. I have experience writing shared libraries in C that can be used for larger-scale applications."
+  },
+  typescript: {
+    displayName: "TypeScript",
+    imageReference: TypeScript,
+    timeExperienced: "1 mo.",
+    experienceType: "Personal Projects",
+    description:
+      "I used TypeScript as the primary programming language for my personal website (The one you're looking at right now!)."
   }
 };

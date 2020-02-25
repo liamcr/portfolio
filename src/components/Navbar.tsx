@@ -23,6 +23,8 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
     setScrollPos(window.scrollY);
   };
 
+  // Returns true if the user is scrolled far enough that the
+  // user is in the specified section.
   const isInSection = (sectionClassName: string) => {
     const elements = document.getElementsByClassName(sectionClassName);
 
@@ -32,6 +34,8 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
 
     const element = elements[0] as HTMLElement;
 
+    // Boolean representing whether or not a user has scrolled
+    // to the bottom of the page.
     const bottomOfWindow =
       Math.ceil(
         Math.max(

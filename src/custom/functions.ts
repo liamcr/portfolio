@@ -1,7 +1,11 @@
+// Function that determines whether or not an object contains
+// a given key.
 export function hasKey<O>(obj: O, key: keyof any): key is keyof O {
   return key in obj;
 }
 
+// Returns the number of pixels that correspond to the given
+// value in vh units.
 export function getVh(valInVH: number) {
   let viewHeight = Math.max(
     document.documentElement.clientHeight,
@@ -11,6 +15,7 @@ export function getVh(valInVH: number) {
   return (valInVH / 100) * viewHeight;
 }
 
+// Smoothly scrolls the user to a desired element.
 export function scrollTo(
   elementId: string,
   duration: number,
