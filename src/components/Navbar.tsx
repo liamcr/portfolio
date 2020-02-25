@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { scrollTo } from "../custom/functions";
+import { scrollTo, getVh } from "../custom/functions";
 import { homeURL } from "../config.json";
 import "../styles/Navbar.css";
 
@@ -23,6 +23,38 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
     setScrollPos(window.scrollY);
   };
 
+  const isInSection = (sectionClassName: string) => {
+    const elements = document.getElementsByClassName(sectionClassName);
+
+    if (elements.length === 0) {
+      return false;
+    }
+
+    const element = elements[0] as HTMLElement;
+
+    const bottomOfWindow =
+      Math.ceil(
+        Math.max(
+          window.pageYOffset,
+          document.documentElement.scrollTop,
+          document.body.scrollTop
+        ) + window.innerHeight
+      ) === document.documentElement.offsetHeight;
+
+    if (bottomOfWindow && sectionClassName === "contact-container") {
+      return true;
+    } else if (bottomOfWindow && sectionClassName === "projects-container") {
+      return false;
+    } else if (
+      scrollPos > element.offsetTop - getVh(10) - 1 &&
+      scrollPos < element.offsetHeight + element.offsetTop - getVh(10) - 1
+    ) {
+      return true;
+    }
+
+    return false;
+  };
+
   return (
     <div
       className="navbar-container"
@@ -42,31 +74,41 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
       </div>
       <div className="trailing-navbar-items">
         <div
-          className="navbar-item"
+          className={`navbar-item ${
+            isInSection("about-container") ? "current-section" : ""
+          }`}
           onClick={() => handleNavClick("about-container")}
         >
           About
         </div>
         <div
-          className="navbar-item"
+          className={`navbar-item ${
+            isInSection("skills-container") ? "current-section" : ""
+          }`}
           onClick={() => handleNavClick("skills-container")}
         >
           Skills
         </div>
         <div
-          className="navbar-item"
+          className={`navbar-item ${
+            isInSection("experience-container") ? "current-section" : ""
+          }`}
           onClick={() => handleNavClick("experience-container")}
         >
           Work Experience
         </div>
         <div
-          className="navbar-item"
+          className={`navbar-item ${
+            isInSection("projects-container") ? "current-section" : ""
+          }`}
           onClick={() => handleNavClick("projects-container")}
         >
           Projects
         </div>
         <div
-          className="navbar-item"
+          className={`navbar-item ${
+            isInSection("contact-container") ? "current-section" : ""
+          }`}
           onClick={() => handleNavClick("contact-container")}
         >
           Contact

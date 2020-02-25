@@ -35,8 +35,13 @@
 }
 
 .navbar-item:hover {
-  background-color: black;
-  color: white;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.current-section {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 900px) {
