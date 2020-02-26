@@ -23,4 +23,7 @@
   .about-image {
     display: none;
   }
+  .about-content {
+    font-size: 12pt;
+  }
 }

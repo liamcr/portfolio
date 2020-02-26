@@ -34,14 +34,17 @@
   cursor: pointer;
 }
 
-.navbar-item:hover {
-  background-color: #333333;
-  color: #ffffff;
+.top-of-page,
+.not-top-of-page {
+  transition: color 0.2s ease-in-out;
 }
 
-.current-section {
-  background-color: #000000;
-  color: #ffffff;
+.top-of-page:hover {
+  color: #d1d1d1;
+}
+
+.not-top-of-page:hover {
+  color: hsl(240, 80%, 75%);
 }
 
 @media only screen and (max-width: 900px) {

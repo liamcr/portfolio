@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { scrollTo, getVh } from "../custom/functions";
+import { scrollTo } from "../custom/functions";
 import { homeURL } from "../config.json";
 import "../styles/Navbar.css";
 
@@ -23,42 +23,6 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
     setScrollPos(window.scrollY);
   };
 
-  // Returns true if the user is scrolled far enough that the
-  // user is in the specified section.
-  const isInSection = (sectionClassName: string) => {
-    const elements = document.getElementsByClassName(sectionClassName);
-
-    if (elements.length === 0) {
-      return false;
-    }
-
-    const element = elements[0] as HTMLElement;
-
-    // Boolean representing whether or not a user has scrolled
-    // to the bottom of the page.
-    const bottomOfWindow =
-      Math.ceil(
-        Math.max(
-          window.pageYOffset,
-          document.documentElement.scrollTop,
-          document.body.scrollTop
-        ) + window.innerHeight
-      ) === document.documentElement.offsetHeight;
-
-    if (bottomOfWindow && sectionClassName === "contact-container") {
-      return true;
-    } else if (bottomOfWindow && sectionClassName === "projects-container") {
-      return false;
-    } else if (
-      scrollPos > element.offsetTop - getVh(10) - 1 &&
-      scrollPos < element.offsetHeight + element.offsetTop - getVh(10) - 1
-    ) {
-      return true;
-    }
-
-    return false;
-  };
-
   return (
     <div
       className="navbar-container"
@@ -69,7 +33,9 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
     >
       <div className="leading-navbar-items">
         <div
-          className="navbar-item"
+          className={`navbar-item ${
+            scrollPos > 0 ? "not-top-of-page" : "top-of-page"
+          }`}
           style={{ display: homePage ? "none" : "inline-block" }}
           onClick={() => handleNavClick("home")}
         >
@@ -79,7 +45,7 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
       <div className="trailing-navbar-items">
         <div
           className={`navbar-item ${
-            isInSection("about-container") ? "current-section" : ""
+            scrollPos > 0 ? "not-top-of-page" : "top-of-page"
           }`}
           onClick={() => handleNavClick("about-container")}
         >
@@ -87,7 +53,7 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
         </div>
         <div
           className={`navbar-item ${
-            isInSection("skills-container") ? "current-section" : ""
+            scrollPos > 0 ? "not-top-of-page" : "top-of-page"
           }`}
           onClick={() => handleNavClick("skills-container")}
         >
@@ -95,7 +61,7 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
         </div>
         <div
           className={`navbar-item ${
-            isInSection("experience-container") ? "current-section" : ""
+            scrollPos > 0 ? "not-top-of-page" : "top-of-page"
           }`}
           onClick={() => handleNavClick("experience-container")}
         >
@@ -103,7 +69,7 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
         </div>
         <div
           className={`navbar-item ${
-            isInSection("projects-container") ? "current-section" : ""
+            scrollPos > 0 ? "not-top-of-page" : "top-of-page"
           }`}
           onClick={() => handleNavClick("projects-container")}
         >
@@ -111,7 +77,7 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
         </div>
         <div
           className={`navbar-item ${
-            isInSection("contact-container") ? "current-section" : ""
+            scrollPos > 0 ? "not-top-of-page" : "top-of-page"
           }`}
           onClick={() => handleNavClick("contact-container")}
         >

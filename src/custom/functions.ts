@@ -6,7 +6,7 @@ export function hasKey<O>(obj: O, key: keyof any): key is keyof O {
 
 // Returns the number of pixels that correspond to the given
 // value in vh units.
-export function getVh(valInVH: number) {
+function getVh(valInVH: number) {
   let viewHeight = Math.max(
     document.documentElement.clientHeight,
     window.innerHeight || 0
