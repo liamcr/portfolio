@@ -1,4 +1,4 @@
-import WSIBLogo from "../assets/companyLogos/wsib.svg";
+import WSIBLogo from "../assets/companyLogos/wsib.png";
 import CooperatorsLogo from "../assets/companyLogos/cooperators.png";
 import NumeratorLogo from "../assets/companyLogos/numerator.png";
 
