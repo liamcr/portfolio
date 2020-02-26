@@ -41,7 +41,7 @@ const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
           {projectObj.description}
         </div>
         <div className="project-preview-buttons">
-          <Button disabled>Learn More</Button>
+          {/* <Button disabled>Learn More</Button> */}
           <Button color="primary" href={projectObj.url}>
             Live Demo
           </Button>
