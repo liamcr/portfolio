@@ -24,8 +24,16 @@
   display: flex;
 }
 
+.project-preview-image-container {
+  flex: 4;
+}
+
+.project-preview-content {
+  flex: 6;
+}
+
 .project-preview-image {
-  max-width: 40%;
+  max-width: 100%;
 }
 
 .project-preview-description {

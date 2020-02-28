@@ -16,11 +16,13 @@ const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
   return (
     <div className="project-preview-container">
       {imageOnLeft && (
-        <img
-          className="project-preview-image"
-          src={projectObj.imageReference}
-          alt={projectObj.title}
-        />
+        <div className="project-preview-image-container">
+          <img
+            className="project-preview-image"
+            src={projectObj.imageReference}
+            alt={projectObj.title}
+          />
+        </div>
       )}
       <div
         className="project-preview-content"
@@ -51,11 +53,13 @@ const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
         </div>
       </div>
       {!imageOnLeft && (
-        <img
-          className="project-preview-image"
-          src={projectObj.imageReference}
-          alt={projectObj.title}
-        />
+        <div className="project-preview-image-container">
+          <img
+            className="project-preview-image"
+            src={projectObj.imageReference}
+            alt={projectObj.title}
+          />
+        </div>
       )}
     </div>
   );

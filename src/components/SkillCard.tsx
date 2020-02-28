@@ -10,9 +10,6 @@ type SkillCardProps = {
 const SkillCard: React.FC<SkillCardProps> = ({ skillID }) => {
   return (
     <div className="skill-card-container">
-      <div className="skill-card-header">
-        {hasKey(technologies, skillID) ? technologies[skillID].displayName : ""}
-      </div>
       <div className="skill-icon-container">
         <img
           src={
@@ -24,6 +21,9 @@ const SkillCard: React.FC<SkillCardProps> = ({ skillID }) => {
           className="skill-card-icon"
         />
       </div>
+      <div className="skill-card-header">
+        {hasKey(technologies, skillID) ? technologies[skillID].displayName : ""}
+      </div>
       <div className="skill-card-experience">
         {hasKey(technologies, skillID)
           ? technologies[skillID].timeExperienced
@@ -34,9 +34,9 @@ const SkillCard: React.FC<SkillCardProps> = ({ skillID }) => {
           ? technologies[skillID].experienceType
           : ""}
       </div>
-      <div className="skill-card-description">
+      {/* <div className="skill-card-description">
         {hasKey(technologies, skillID) ? technologies[skillID].description : ""}
-      </div>
+      </div> */}
     </div>
   );
 };

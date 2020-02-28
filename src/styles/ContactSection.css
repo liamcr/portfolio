@@ -21,7 +21,7 @@
 }
 
 @media only screen and (max-width: 750px) {
-  .contact-content-container {
-    flex-direction: column;
+  .contact-container {
+    padding: 10vh 10vw;
   }
 }
