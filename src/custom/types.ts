@@ -4,6 +4,7 @@ export interface WorkObj {
   location: string;
   timeFrame: string;
   companyImage: string;
+  highlights: Array<string>;
 }
 
 export interface ProjectObj {

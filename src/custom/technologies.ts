@@ -56,7 +56,7 @@ export const technologies = {
     timeExperienced: "8 mos.",
     experienceType: "Work Experience",
     description:
-      "Used Firebase as the backend to my One Word Stories project. Also used it as a backend tool the WSIB Innovation Lab's website."
+      "Used Firebase as the backend to my One Word Stories project. Also used it as a backend tool for the WSIB Innovation Lab's website."
   },
   redditAPI: {
     displayName: "Reddit API",
@@ -120,7 +120,7 @@ export const technologies = {
     timeExperienced: "2 mos.",
     experienceType: "Work Experience",
     description:
-      "Developed an iOS app in Swift that used machine learning to determine whether or not a worker was getting fatigued."
+      "Developed a cross-platform app in Swift that connected an iPhone app to an Apple Watch app. Apple Watch data was passed in real-time to the iPhone and used as input data to a machine learning model."
   },
   awsDynamoDB: {
     displayName: "AWS DynamoDB",
@@ -135,7 +135,7 @@ export const technologies = {
     timeExperienced: "2 mos.",
     experienceType: "Work Experience",
     description:
-      "S3 was used for file storing for both my work with WSIB, but also for my Smash API project."
+      "S3 was used for file storing for both my work with WSIB, as well as for my Smash API project."
   },
   awsSageMaker: {
     displayName: "AWS SageMaker",
@@ -143,7 +143,7 @@ export const technologies = {
     timeExperienced: "1 mo.",
     experienceType: "Work Experience",
     description:
-      "SageMaker was used to train a machine learning model to determine whether or not a user was fatigued based only on their motion data."
+      "SageMaker was used to train an SVM machine learning model with over 3,000 data points."
   },
   c: {
     displayName: "C",

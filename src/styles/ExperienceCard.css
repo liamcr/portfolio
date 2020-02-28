@@ -1,9 +1,6 @@
 .experience-card-container {
   display: flex;
   align-items: center;
-  background-color: #fbfbfb;
-  padding: 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .experience-container .experience-card-container:not(:last-child) {
@@ -45,6 +42,20 @@
 
 .experience-header-info {
   margin-left: 48px;
+}
+
+.experience-card-hightlights-header {
+  font-family: "Lato", sans-serif;
+  font-size: 20pt;
+  margin-bottom: 16px;
+}
+
+.experience-card-highlight {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  border-left: hsl(240, 100%, 90%) solid 4px;
+  padding-left: 8px;
 }
 
 @media only screen and (max-width: 750px) {
