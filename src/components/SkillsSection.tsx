@@ -21,7 +21,8 @@ const SkillsSection: React.FC = () => {
     "awsDynamoDB",
     "awsS3",
     "awsSageMaker",
-    "c"
+    "c",
+    "java"
   ];
 
   const largeScreen = useMediaQuery("(min-width:1050px)");

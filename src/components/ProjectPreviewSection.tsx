@@ -3,6 +3,7 @@ import { ProjectObj } from "../custom/types";
 import { Button } from "@material-ui/core";
 import "../styles/ProjectPreviewSection.css";
 import TechnologyPreview from "./TechnologyPreview";
+import { OpenInNew } from "@material-ui/icons";
 
 type ProjectPreviewProps = {
   projectObj: ProjectObj;
@@ -13,6 +14,10 @@ const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
   projectObj,
   imageOnLeft
 }) => {
+  const handleLink = (url: string) => {
+    window.open(url);
+  };
+
   return (
     <div className="project-preview-container">
       {imageOnLeft && (
@@ -44,10 +49,18 @@ const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
         </div>
         <div className="project-preview-buttons">
           {/* <Button disabled>Learn More</Button> */}
-          <Button color="primary" href={projectObj.url}>
+          <Button
+            color="primary"
+            onClick={() => handleLink(projectObj.url)}
+            endIcon={<OpenInNew />}
+          >
             Live Demo
           </Button>
-          <Button color="primary" href={projectObj.repoURL}>
+          <Button
+            color="primary"
+            onClick={() => handleLink(projectObj.repoURL)}
+            endIcon={<OpenInNew />}
+          >
             Visit Repo
           </Button>
         </div>

@@ -16,6 +16,7 @@ import AWSS3 from "../assets/technologyIcons/awsS3.png";
 import AWSSageMaker from "../assets/technologyIcons/awsSageMaker.png";
 import C from "../assets/technologyIcons/c.png";
 import TypeScript from "../assets/technologyIcons/typescript.png";
+import Java from "../assets/technologyIcons/java.png";
 
 export const technologies = {
   javascript: {
@@ -123,7 +124,7 @@ export const technologies = {
       "Developed a cross-platform app in Swift that connected an iPhone app to an Apple Watch app. Apple Watch data was passed in real-time to the iPhone and used as input data to a machine learning model."
   },
   awsDynamoDB: {
-    displayName: "AWS DynamoDB",
+    displayName: "DynamoDB",
     imageReference: AWSDynamoDB,
     timeExperienced: "1 mo.",
     experienceType: "Personal Projects",
@@ -138,7 +139,7 @@ export const technologies = {
       "S3 was used for file storing for both my work with WSIB, as well as for my Smash API project."
   },
   awsSageMaker: {
-    displayName: "AWS SageMaker",
+    displayName: "SageMaker",
     imageReference: AWSSageMaker,
     timeExperienced: "1 mo.",
     experienceType: "Work Experience",
@@ -160,5 +161,12 @@ export const technologies = {
     experienceType: "Personal Projects",
     description:
       "I used TypeScript as the primary programming language for my personal website (The one you're looking at right now!)."
+  },
+  java: {
+    displayName: "Java",
+    imageReference: Java,
+    timeExperienced: "8 mos.",
+    experienceType: "School Projects",
+    description: ""
   }
 };
