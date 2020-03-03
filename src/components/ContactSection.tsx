@@ -2,9 +2,13 @@ import React from "react";
 import SectionHeader from "./SectionHeader";
 import "../styles/ContactSection.css";
 import { Button, Grid } from "@material-ui/core";
-import { MailOutline, LinkedIn, GitHub } from "@material-ui/icons";
+import { MailOutline, LinkedIn, GitHub, OpenInNew } from "@material-ui/icons";
 
 const ContactSection: React.FC = () => {
+  const handleLink = (url: string) => {
+    window.open(url);
+  };
+
   return (
     <div className="contact-container" id="contact-container">
       <SectionHeader content="Get in Touch!" />
@@ -26,7 +30,10 @@ const ContactSection: React.FC = () => {
               <div className="contact-header">Connect on LinkedIn!</div>
               <Button
                 color="primary"
-                href="https://www.linkedin.com/in/william-crocket/"
+                onClick={() =>
+                  handleLink("https://www.linkedin.com/in/william-crocket/")
+                }
+                endIcon={<OpenInNew />}
               >
                 <LinkedIn />
                 <div className="contact-button-text">{"William Crocket"}</div>
@@ -36,7 +43,11 @@ const ContactSection: React.FC = () => {
           <Grid item lg={4} md={6} sm={12}>
             <div className="contact-option">
               <div className="contact-header">Check out my GitHub!</div>
-              <Button color="primary" href="https://github.com/liamcr">
+              <Button
+                color="primary"
+                onClick={() => handleLink("https://github.com/liamcr")}
+                endIcon={<OpenInNew />}
+              >
                 <GitHub />
                 <div className="contact-button-text">{"Liam Crocket"}</div>
               </Button>
