@@ -17,3 +17,18 @@ export interface ProjectObj {
   url: string;
   repoURL: string;
 }
+
+interface Section {
+  header: string;
+  body: string;
+}
+
+export interface FullProjectObj {
+  name: string;
+  date: string;
+  technologies: string[];
+  sections: Array<Section>;
+  headerImage: string;
+  url: string;
+  repoURL: string;
+}
