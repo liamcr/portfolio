@@ -43,6 +43,7 @@
 }
 
 @media only screen and (max-width: 750px) {
+  .project-preview-image-container,
   .project-preview-image {
     display: none;
   }
