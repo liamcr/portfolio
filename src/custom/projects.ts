@@ -1,5 +1,6 @@
-import Template from "../assets/templateHeader.png";
 import Musicpedia from "../assets/musicpediaHeader.png";
+import OneWordStories from "../assets/oneWordStoriesHeader.png";
+import PartyMix from "../assets/partyMixHeader.png";
 
 export const projects = {
   musicpedia: {
@@ -28,7 +29,7 @@ export const projects = {
     technologies: ["reactjs", "firebase"],
     url: "https://jwieler.github.io/oneWordStories/",
     repoURL: "https://github.com/jwieler/oneWordStories",
-    headerImage: Template,
+    headerImage: OneWordStories,
     sections: [
       {
         header: "About the Project",
@@ -43,7 +44,7 @@ export const projects = {
     technologies: ["javascript", "spotifyAPI"],
     url: "https://party-mix.000webhostapp.com/",
     repoURL: "https://github.com/liamcr/party-mix",
-    headerImage: Template,
+    headerImage: PartyMix,
     sections: [
       {
         header: "About the Project",
