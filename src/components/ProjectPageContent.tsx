@@ -3,6 +3,7 @@ import { FullProjectObj } from "../custom/types";
 import TechnologyPreview from "./TechnologyPreview";
 import { Button } from "@material-ui/core";
 import { OpenInNew } from "@material-ui/icons";
+import "../styles/ProjectPageContent.css";
 
 type ProjectPageContentProps = {
   project: FullProjectObj;
@@ -22,6 +23,12 @@ const ProjectPageContent: React.FC<ProjectPageContentProps> = ({ project }) => {
           <TechnologyPreview key={index} technologyID={technology} />
         ))}
       </div>
+      {project.sections.map((section, index) => (
+        <div className="project-section" key={index}>
+          <div className="project-section-header">{section.header}</div>
+          <div className="project-section-body">{section.body}</div>
+        </div>
+      ))}
       <div className="project-buttons">
         <Button
           color="primary"
@@ -38,12 +45,6 @@ const ProjectPageContent: React.FC<ProjectPageContentProps> = ({ project }) => {
           Visit Repo
         </Button>
       </div>
-      {project.sections.map((section, index) => (
-        <div className="project-section" key={index}>
-          <div className="project-section-header">{section.header}</div>
-          <div className="project-section-body">{section.body}</div>
-        </div>
-      ))}
     </div>
   );
 };
