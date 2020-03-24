@@ -26,7 +26,11 @@ const ProjectPageContent: React.FC<ProjectPageContentProps> = ({ project }) => {
       {project.sections.map((section, index) => (
         <div className="project-section" key={index}>
           <div className="project-section-header">{section.header}</div>
-          <div className="project-section-body">{section.body}</div>
+          <div className="project-section-body">
+            {section.bodyParagraphs.map((paragraph, index) => (
+              <div className="project-section-body-paragraph">{paragraph}</div>
+            ))}
+          </div>
         </div>
       ))}
       <div className="project-buttons">

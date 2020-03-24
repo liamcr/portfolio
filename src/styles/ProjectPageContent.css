@@ -23,7 +23,14 @@
 }
 
 .project-section-body {
+  margin-bottom: 36px;
+}
+
+.project-section-body-paragraph {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
-  margin-bottom: 36px;
+}
+
+.project-section-body .project-section-body-paragraph:not(:last-child) {
+  margin-bottom: 20px;
 }

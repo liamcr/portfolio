@@ -20,7 +20,7 @@ export interface ProjectObj {
 
 interface Section {
   header: string;
-  body: string;
+  bodyParagraphs: Array<string>;
 }
 
 export interface FullProjectObj {
