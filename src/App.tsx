@@ -11,7 +11,7 @@ const App: React.FC = () => {
         <Route exact path="/">
           <HomePage />
         </Route>
-        <Route path="/project/:id">
+        <Route path="/:id">
           <Project />
         </Route>
         <Redirect from="*" to="/" />

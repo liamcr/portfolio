@@ -1,7 +1,7 @@
 import React from "react";
 import { FullProjectObj } from "../custom/types";
 import TechnologyPreview from "./TechnologyPreview";
-import { Button } from "@material-ui/core";
+import { Button, useMediaQuery } from "@material-ui/core";
 import { OpenInNew } from "@material-ui/icons";
 import "../styles/ProjectPageContent.css";
 
@@ -14,14 +14,18 @@ const ProjectPageContent: React.FC<ProjectPageContentProps> = ({ project }) => {
     window.open(url);
   };
 
+  const isSmallScreen = useMediaQuery("(max-width: 700px)");
+
   return (
     <div className="project-page-content-container">
       <div className="project-page-header">{project.name}</div>
       <div className="project-page-subtitle">{project.date}</div>
       <div className="project-preview-technologies-container">
-        {project.technologies.map((technology, index) => (
-          <TechnologyPreview key={index} technologyID={technology} />
-        ))}
+        {project.technologies
+          .slice(0, isSmallScreen ? 2 : undefined)
+          .map((technology, index) => (
+            <TechnologyPreview key={index} technologyID={technology} />
+          ))}
       </div>
       {project.sections.map((section, index) => (
         <div className="project-section" key={index}>

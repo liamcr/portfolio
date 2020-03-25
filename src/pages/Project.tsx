@@ -11,8 +11,6 @@ const Project: React.FC = () => {
   const { id } = useParams();
   let projectObj: FullProjectObj;
 
-  console.log(id);
-
   if (id !== undefined && hasKey(projects, id)) {
     projectObj = projects[id];
   } else {
