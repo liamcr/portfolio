@@ -27,14 +27,14 @@ export const projects = {
       {
         header: "Behind the Idea",
         bodyParagraphs: [
-          "The idea for this project came about when I was looking through Spotify's web API documentation. I utilized the Spotify API when developing my project 'Party Mix', but I realized that there was so much more to the API than I had used. The two most interesting things to me were the audio features and audio analysis capabilities. I found myself searching around for the IDs of my favourite songs so that I could get an analysis of them, and thought that it would be convenient if there was an easy-to-use front-end application for these endpoints.",
+          "The idea for this project came about when I was looking through Spotify's web API documentation. I utilized the Spotify API when developing my project 'Party Mix', but I realized that there was so much more to the API than what I had used. The two most interesting things to me were the audio features and audio analysis capabilities. I found myself searching around for the IDs of my favourite songs so that I could get an analysis of them, and thought that it would be convenient if there was an easy-to-use front-end application for these endpoints.",
           "At the end of the day, this was a project made to meet a very specific goal of mine, and although the project isn't solving a huge problem, I still find myself coming back to it months later to find information about the newest songs and albums."
         ]
       },
       {
         header: "What I Learned",
         bodyParagraphs: [
-          "This project as a whole really strengthened my knowledge of React.js past just the basics. I learned how to properly send and receive HTTP requests within a react app using axios. On top of that, this was the first project I had developed that uses routing.",
+          "This project as a whole really strengthened my knowledge of React.js past just the basics. I learned how to properly send and receive HTTP requests within a React app using axios. On top of that, this was the first project I had developed that uses routing.",
           "It was also interesting to learn how to use Material-UI. It's a widely used React UI framework, and it gave me the important experience of reading about and implementing a popular third-party library."
         ]
       }
@@ -64,7 +64,7 @@ export const projects = {
       {
         header: "Behind the Idea",
         bodyParagraphs: [
-          "This was an idea that came about when a friend made a C program before a lecture that took inputs one word at a time. We passed his computer around among our group of friends and short stories one word at a time. We thought it was a fun idea, and wanted to create a website that allowed you to play this game with others around the world.",
+          "This was an idea that came about when a friend made a C program before a lecture that took inputs one word at a time. We passed his computer around among our group of friends and wrote short stories one word at a time. We thought it was a fun idea, and wanted to create a website that allowed you to play this game with others around the world.",
           "We also wanted to give users the ability to browse other stories that they may not have gotten the chance to contribute to. We decided to store all finished stories on a subreddit, and create our own front-end for it. This way, users can not only read other stories, but vote on them, and sort by popularity."
         ]
       },
@@ -72,7 +72,7 @@ export const projects = {
         header: "What I Learned",
         bodyParagraphs: [
           "This entire project was a big learning experience for me, as it was the first time I had used React in a big way. Throughout the development process, I learned and improved on my skills of isolating sections into components, and managing state across them.",
-          "This project also marks my first experience with Firebase. We used firebase as the backend tool to store the stories that hadn't been marked as 'completed' yet. Reading/writing data, as well as understanding how to use a document storage system, were all concepts that I had to learn and become comfortable with.",
+          "This project also marks my first experience with Firebase. We used Firebase as the backend tool to store the stories that hadn't been marked as 'completed' yet. Reading/writing data, as well as understanding how to use a document storage system, were all concepts that I had to learn and become comfortable with.",
           "Lastly, I had to learn how to make requests to Reddit's REST API. Reading from and writing to a subreddit, as well as authenticating with Reddit were the two key concepts I had to understand."
         ]
       }
