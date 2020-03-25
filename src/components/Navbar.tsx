@@ -42,7 +42,10 @@ const Navbar: React.FC<NavbarProps> = ({ homePage }) => {
           Home
         </div>
       </div>
-      <div className="trailing-navbar-items">
+      <div
+        className="trailing-navbar-items"
+        style={{ display: !homePage ? "none" : "flex" }}
+      >
         <div
           className={`navbar-item ${
             scrollPos > 0 ? "not-top-of-page" : "top-of-page"

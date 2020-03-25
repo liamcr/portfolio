@@ -1,0 +1,36 @@
+.project-page-content-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.project-page-header {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 32pt;
+  margin-bottom: 4px;
+}
+
+.project-page-subtitle {
+  font-family: "Open Sans", sans-serif;
+  color: #4f4f4f;
+}
+
+.project-section-header {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 24pt;
+  margin-bottom: 12px;
+}
+
+.project-section-body {
+  margin-bottom: 36px;
+}
+
+.project-section-body-paragraph {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+.project-section-body .project-section-body-paragraph:not(:last-child) {
+  margin-bottom: 20px;
+}
