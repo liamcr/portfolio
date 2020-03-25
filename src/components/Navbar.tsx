@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { scrollTo } from "../custom/functions";
-import { homeURL } from "../config.json";
 import "../styles/Navbar.css";
 
 type NavbarProps = {
@@ -10,7 +9,7 @@ type NavbarProps = {
 // Scrolls to the desired section of the home page
 const handleNavClick = (targetId: string) => {
   if (targetId === "home") {
-    window.location.href = homeURL;
+    window.location.href = "/";
   } else {
     scrollTo(targetId, 500);
   }
