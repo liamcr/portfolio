@@ -58,13 +58,15 @@ const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
           >
             Live Demo
           </Button>
-          <Button
-            color="primary"
-            onClick={() => handleLink(projectObj.repoURL)}
-            endIcon={<OpenInNew />}
-          >
-            Visit Repo
-          </Button>
+          {projectObj.repoURL !== "" && (
+            <Button
+              color="primary"
+              onClick={() => handleLink(projectObj.repoURL)}
+              endIcon={<OpenInNew />}
+            >
+              Visit Repo
+            </Button>
+          )}
         </div>
       </div>
       {!imageOnLeft && (

@@ -1,8 +1,20 @@
+import SmashAPI from "../assets/smashAPIPreview.png";
 import Musidex from "../assets/musidexPreview.png";
 import OneWordStories from "../assets/oneWordStoriesPreview.png";
 import PartyMixPreview from "../assets/partyMixPreview.png";
 
 export const featuredProjects = [
+  {
+    title: "Smash API",
+    date: "Winter 2020",
+    technologies: ["awsLambda", "awsDynamoDB"],
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    imageReference: SmashAPI,
+    projectPageURL: "/smashAPI",
+    url: "https://smashultimate.ca",
+    repoURL: ""
+  },
   {
     title: "Musicpedia",
     date: "Winter 2020",
