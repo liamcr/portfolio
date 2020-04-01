@@ -1,7 +1,3 @@
-import Musicpedia from "../assets/musicpediaHeader.png";
-import OneWordStories from "../assets/oneWordStoriesHeader.png";
-import PartyMix from "../assets/partyMixHeader.png";
-
 export const projects = {
   smashAPI: {
     name: "Smash API",
@@ -9,7 +5,7 @@ export const projects = {
     technologies: ["awsLambda", "python", "awsDynamoDB", "awsS3", "git"],
     url: "https://smashultimate.ca",
     repoURL: "https://github.com/liamcr/smash-api-documentation-site",
-    headerImage: "#",
+    colour: "hsl(0, 100%, 63%)",
     sections: [
       {
         header: "About the Project",
@@ -32,7 +28,7 @@ export const projects = {
     ],
     url: "https://musicpedia-app.web.app/",
     repoURL: "https://github.com/liamcr/musicpedia",
-    headerImage: Musicpedia,
+    colour: "hsl(301, 46%, 57%)",
     sections: [
       {
         header: "About the Project",
@@ -69,7 +65,7 @@ export const projects = {
     ],
     url: "https://jwieler.github.io/oneWordStories/",
     repoURL: "https://github.com/jwieler/oneWordStories",
-    headerImage: OneWordStories,
+    colour: "hsl(198, 100%, 29%)",
     sections: [
       {
         header: "About the Project",
@@ -100,7 +96,7 @@ export const projects = {
     technologies: ["javascript", "spotifyAPI"],
     url: "https://party-mix.000webhostapp.com/",
     repoURL: "https://github.com/liamcr/party-mix",
-    headerImage: PartyMix,
+    colour: "hsl(141, 73%, 42%)",
     sections: [
       {
         header: "About the Project",
