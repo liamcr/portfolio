@@ -25,12 +25,11 @@ const Project: React.FC = () => {
   return (
     <div className="project-page-container">
       <Navbar homePage={false} />
-      <div className="project-header-image-container">
-        <img
-          src={projectObj.headerImage}
-          alt="Header for project"
-          className="project-header-image"
-        />
+      <div className="striped-backdrop">
+        <div
+          className="backdrop-overlay"
+          style={{ backgroundColor: projectObj.colour, opacity: 0.7 }}
+        ></div>
       </div>
       <ProjectPageContent project={projectObj} />
     </div>

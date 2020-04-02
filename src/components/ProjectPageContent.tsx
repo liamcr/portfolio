@@ -18,6 +18,14 @@ const ProjectPageContent: React.FC<ProjectPageContentProps> = ({ project }) => {
 
   return (
     <div className="project-page-content-container">
+      <img
+        src={project.icon}
+        alt="Project Icon"
+        className="project-icon"
+        style={{
+          right: isSmallScreen ? "5%" : "20%"
+        }}
+      />
       <div className="project-page-header">{project.name}</div>
       <div className="project-page-subtitle">{project.date}</div>
       <div className="project-preview-technologies-container">
@@ -32,7 +40,9 @@ const ProjectPageContent: React.FC<ProjectPageContentProps> = ({ project }) => {
           <div className="project-section-header">{section.header}</div>
           <div className="project-section-body">
             {section.bodyParagraphs.map((paragraph, index) => (
-              <div className="project-section-body-paragraph">{paragraph}</div>
+              <div className="project-section-body-paragraph" key={index}>
+                {paragraph}
+              </div>
             ))}
           </div>
         </div>

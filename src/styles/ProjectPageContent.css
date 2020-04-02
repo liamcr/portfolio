@@ -31,6 +31,13 @@
   line-height: 1.5;
 }
 
+.project-icon {
+  position: absolute;
+  transform: translateY(-184px);
+  max-width: 184px;
+  max-height: 184px;
+}
+
 .project-section-body .project-section-body-paragraph:not(:last-child) {
   margin-bottom: 20px;
 }
