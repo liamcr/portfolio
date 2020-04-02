@@ -8,7 +8,9 @@ const AboutSection: React.FC = () => {
     <div className="about-container" id="about-container">
       <SectionHeader content="About Me" />
       <div className="about-content-container">
-        <img className="about-image" src={AboutImage} alt="Me" />
+        <div className="about-image-container">
+          <img className="about-image" src={AboutImage} alt="Me" />
+        </div>
         <div className="about-content">
           Welcome to the site! I’m Liam Crocket, and I’m currently working
           through my 3rd year in the University of Guelph’s Software Engineering
