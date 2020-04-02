@@ -16,7 +16,19 @@ export const projects = {
       {
         header: "About the Project",
         bodyParagraphs: [
-          'The Smash API is a consumption-only (i.e. only GET requests are available) API that can be used to access data related to the video game "Super Smash Bros. Ultimate". The API includes four key endpoints: /characters, /items, /stages, and /moves. Make a request to the /characters endpoint to recieve data about a character, including their name, what video game series they\'re originally from, and various other gameplay attributes. Make a request to the /stages endpoint to retrieve data about any given stage, such as its name, and what game series the stage is inspired by. Check out the docs by clicking the "Live Demo" button below to explore more of that the API has to offer.'
+          'The Smash API is a consumption-only (i.e. only GET requests are available) API that can be used to access data related to the video game "Super Smash Bros. Ultimate". The API includes four key endpoints: /characters, /items, /stages, and /moves. Make a request to the /characters endpoint to receive data about a character, including their name, what video game series they\'re originally from, and various other gameplay attributes. Make a request to the /stages endpoint to retrieve data about any given stage, such as its name, and what game series the stage is inspired by. Check out the docs by clicking the "Live Demo" button below to explore more of what the API has to offer.'
+        ]
+      },
+      {
+        header: "Behind the Idea",
+        bodyParagraphs: [
+          'This was an idea that came up while playing around with the Pokemon consumption-only API (Visit pokeapi.co to learn more). It was an interesting idea, and I also wanted to gain some more backend experience, so it seemed like a great idea for a side project. After talking about it with some classmates of mine, we decided that we could build a similar system for "Super Smash Bros. Ultimate".'
+        ]
+      },
+      {
+        header: "What I Learned",
+        bodyParagraphs: [
+          "After doing some research regarding the viability of creating an API, I decided AWS's API Gateway was the easiest way to build a public API. AWS was something that I had limited experience with, so I had to learn what services would be the best suited for the project, and how to connect them all together. The cloud structure I decided upon was API Gateway to receive the requests, AWS Lambda to take the request and query the database, and DynamoDB to store the data. We also had images (such as character sprites) stored in S3 buckets. All-in-all everything worked together well, and I learned a lot through my first project using cloud infrastructure."
         ]
       }
     ]
