@@ -1,3 +1,8 @@
+import PartyMixIcon from "../assets/partyMixIcon.svg";
+import OneWordStoriesIcon from "../assets/oneWordStoriesIcon.svg";
+import MusicpediaIcon from "../assets/musicpediaIcon.svg";
+import SmashAPIIcon from "../assets/smashAPIIcon.svg";
+
 export const projects = {
   smashAPI: {
     name: "Smash API",
@@ -6,6 +11,7 @@ export const projects = {
     url: "https://smashultimate.ca",
     repoURL: "https://github.com/liamcr/smash-api-documentation-site",
     colour: "hsl(0, 100%, 63%)",
+    icon: SmashAPIIcon,
     sections: [
       {
         header: "About the Project",
@@ -29,6 +35,7 @@ export const projects = {
     url: "https://musicpedia-app.web.app/",
     repoURL: "https://github.com/liamcr/musicpedia",
     colour: "hsl(301, 46%, 57%)",
+    icon: MusicpediaIcon,
     sections: [
       {
         header: "About the Project",
@@ -66,6 +73,7 @@ export const projects = {
     url: "https://jwieler.github.io/oneWordStories/",
     repoURL: "https://github.com/jwieler/oneWordStories",
     colour: "hsl(198, 100%, 29%)",
+    icon: OneWordStoriesIcon,
     sections: [
       {
         header: "About the Project",
@@ -97,6 +105,7 @@ export const projects = {
     url: "https://party-mix.000webhostapp.com/",
     repoURL: "https://github.com/liamcr/party-mix",
     colour: "hsl(141, 73%, 42%)",
+    icon: PartyMixIcon,
     sections: [
       {
         header: "About the Project",

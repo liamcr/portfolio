@@ -18,6 +18,14 @@ const ProjectPageContent: React.FC<ProjectPageContentProps> = ({ project }) => {
 
   return (
     <div className="project-page-content-container">
+      <img
+        src={project.icon}
+        alt="Project Icon"
+        className="project-icon"
+        style={{
+          right: isSmallScreen ? "5%" : "20%"
+        }}
+      />
       <div className="project-page-header">{project.name}</div>
       <div className="project-page-subtitle">{project.date}</div>
       <div className="project-preview-technologies-container">

@@ -29,6 +29,7 @@ export interface FullProjectObj {
   technologies: string[];
   sections: Array<Section>;
   colour: string;
+  icon: string;
   url: string;
   repoURL: string;
 }
