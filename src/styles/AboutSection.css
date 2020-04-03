@@ -30,7 +30,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .about-image {
+  .about-image-container {
     display: none;
   }
   .about-content {
