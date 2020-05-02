@@ -20,6 +20,19 @@ export const projects = {
           "Crocket's Classic Cards is an app that let's you play classic card games with friends without the need for a physical deck of cards. Currently the app includes Go Fish, Crazy Eights, and President. The app uses the Firebase Android SDK to manage up to 10,000 games at once, and provide each one with real-time updates so users can see the most up-to-date state of their game at all times. The app is live on the Google Play store, so click the \"Live Demo\" button below to download the app and play cards with your friends!",
         ],
       },
+      {
+        header: "Behind the Idea",
+        bodyParagraphs: [
+          "This idea stems from the repeated experience of wanting to play cards with friends, but not having a deck of cards to play with. A turn-based game using real-time updates was something I had wanted to do for quite some time, and a card game app seemed like a great way to execute that. The project began as a project for my Mobile Computing course, but I took it on as a side project because of my interest in the project, in addition to the fact that I was interested in having an app on an app store.",
+        ],
+      },
+      {
+        header: "What I Learned",
+        bodyParagraphs: [
+          "This was my first venture in the world of app development, so there was certainly a lot to learn there. I used React Native to shorten the learning curve since I've had a lot of experience with React in the past. I also hadn't had any experience using Firebase's real-time updates, so some work had to be done on my part to understand the concepts, and find out the best way to implement them. Moving beyond strictly techical skills, I learned the process of publishing and maintaining an app on the Google Play store.",
+          "This is all in addition the to offical card game rules I had to learn, which were more complicated and inconsistent than you might think!",
+        ],
+      },
     ],
   },
   smashAPI: {
