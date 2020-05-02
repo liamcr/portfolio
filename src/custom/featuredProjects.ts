@@ -1,9 +1,22 @@
+import CardsPreview from "../assets/cardsPreview.png";
 import SmashAPI from "../assets/smashAPIPreview.png";
 import Musidex from "../assets/musidexPreview.png";
 import OneWordStories from "../assets/oneWordStoriesPreview.png";
 import PartyMixPreview from "../assets/partyMixPreview.png";
 
 export const featuredProjects = [
+  {
+    title: "Crocket's Classic Cards",
+    date: "Spring 2020",
+    technologies: ["reactNative", "firebase"],
+    description:
+      "Crocket's Classic Cards is an app that let's you play classic card games with friends without the need for a physical deck of cards. Currently the app includes Go Fish, Crazy Eights, and President. The app uses the Firebase Android SDK to manage up to 10,000 games at once, and provide each one with real-time updates so users can see the most up-to-date state of their game at all times. The app is live on the Google Play store, so click the \"Live Demo\" button below to download the app and play cards with your friends!",
+    imageReference: CardsPreview,
+    projectPageURL: "/crocketsClassicCards",
+    url:
+      "https://play.google.com/store/apps/details?id=com.crocketsclassiccards",
+    repoURL: "#",
+  },
   {
     title: "Smash API",
     date: "Winter 2020",
@@ -13,7 +26,7 @@ export const featuredProjects = [
     imageReference: SmashAPI,
     projectPageURL: "/smashAPI",
     url: "https://smashultimate.ca",
-    repoURL: "https://github.com/liamcr/smash-api-documentation-site"
+    repoURL: "https://github.com/liamcr/smash-api-documentation-site",
   },
   {
     title: "Musicpedia",
@@ -24,7 +37,7 @@ export const featuredProjects = [
     imageReference: Musidex,
     projectPageURL: "/musicpedia",
     url: "https://musicpedia-app.web.app/",
-    repoURL: "https://github.com/liamcr/musicpedia"
+    repoURL: "https://github.com/liamcr/musicpedia",
   },
   {
     title: "One Word Stories",
@@ -35,7 +48,7 @@ export const featuredProjects = [
     imageReference: OneWordStories,
     projectPageURL: "/oneWordStories",
     url: "https://jwieler.github.io/oneWordStories/",
-    repoURL: "https://github.com/jwieler/oneWordStories"
+    repoURL: "https://github.com/jwieler/oneWordStories",
   },
   {
     title: "Party Mix",
@@ -46,6 +59,6 @@ export const featuredProjects = [
     imageReference: PartyMixPreview,
     projectPageURL: "/partyMix",
     url: "https://party-mix.000webhostapp.com/",
-    repoURL: "https://github.com/liamcr/party-mix"
-  }
+    repoURL: "https://github.com/liamcr/party-mix",
+  },
 ];
