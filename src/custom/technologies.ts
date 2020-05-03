@@ -25,7 +25,7 @@ export const technologies = {
     timeExperienced: "1 yr., 6 mos.",
     experienceType: "Work Experience",
     description:
-      "Developed in JavaScript for my web-based personal projects, school projects, and I also have experience using it in a professional setting during my time at WSIB's Innovation Lab."
+      "Developed in JavaScript for my web-based personal projects, school projects, and I also have experience using it in a professional setting during my time at WSIB's Innovation Lab.",
   },
   reactjs: {
     displayName: "React.js",
@@ -33,7 +33,14 @@ export const technologies = {
     timeExperienced: "8 mos.",
     experienceType: "Work Experience",
     description:
-      "Developed a couple of web-based personal projects using React, and used it heavily during my time at WSIB's Innovation Lab."
+      "Developed a couple of web-based personal projects using React, and used it heavily during my time at WSIB's Innovation Lab.",
+  },
+  reactNative: {
+    displayName: "React Native",
+    imageReference: React,
+    timeExperienced: "3 mos.",
+    experienceType: "Personal Projects",
+    description: "",
   },
   materialUI: {
     displayName: "Material UI",
@@ -41,7 +48,7 @@ export const technologies = {
     timeExperienced: "2 mos.",
     experienceType: "Personal Projects",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   spotifyAPI: {
     displayName: "Spotify API",
@@ -49,7 +56,7 @@ export const technologies = {
     timeExperienced: "1 yr, 6 mos.",
     experienceType: "Personal Projects",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   firebase: {
     displayName: "Firebase",
@@ -57,7 +64,7 @@ export const technologies = {
     timeExperienced: "8 mos.",
     experienceType: "Work Experience",
     description:
-      "Used Firebase as the backend to my One Word Stories project. Also used it as a backend tool for the WSIB Innovation Lab's website."
+      "Used Firebase as the backend to my One Word Stories project. Also used it as a backend tool for the WSIB Innovation Lab's website.",
   },
   redditAPI: {
     displayName: "Reddit API",
@@ -65,7 +72,7 @@ export const technologies = {
     timeExperienced: "8 mos.",
     experienceType: "Personal Projects",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   nodejs: {
     displayName: "Node.js",
@@ -73,7 +80,7 @@ export const technologies = {
     timeExperienced: "4 mos.",
     experienceType: "Personal Projects",
     description:
-      "Used Node.js to develop my One Word Stories project. I also have experience using this for web-based school assignments."
+      "Used Node.js to develop my One Word Stories project. I also have experience using this for web-based school assignments.",
   },
   git: {
     displayName: "Git",
@@ -81,7 +88,7 @@ export const technologies = {
     timeExperienced: "2 yrs.",
     experienceType: "Work Experience",
     description:
-      "I use Git as the version control system for all of my personal and academic projects. I also used it during my time at both The Co-operators and WSIB's Innovation Lab."
+      "I use Git as the version control system for all of my personal and academic projects. I also used it during my time at both The Co-operators and WSIB's Innovation Lab.",
   },
   awsLambda: {
     displayName: "AWS Lambda",
@@ -89,7 +96,7 @@ export const technologies = {
     timeExperienced: "1 mo.",
     experienceType: "Personal Projects",
     description:
-      "Used AWS Lambda to write cloud functions to fetch data from my database for my Smash API side project."
+      "Used AWS Lambda to write cloud functions to fetch data from my database for my Smash API side project.",
   },
   docker: {
     displayName: "Docker",
@@ -97,7 +104,7 @@ export const technologies = {
     timeExperienced: "1 mo.",
     experienceType: "Work Experience",
     description:
-      "Used Docker to containerize my projects during my term at WSIB's Innovation Lab."
+      "Used Docker to containerize my projects during my term at WSIB's Innovation Lab.",
   },
   kubernetes: {
     displayName: "Kubernetes",
@@ -105,7 +112,7 @@ export const technologies = {
     timeExperienced: "1 mo.",
     experienceType: "Work Experience",
     description:
-      "Used Kubernetes (along with Docker) to containerize projects at the WSIB Innovation Lab."
+      "Used Kubernetes (along with Docker) to containerize projects at the WSIB Innovation Lab.",
   },
   python: {
     displayName: "Python",
@@ -113,7 +120,7 @@ export const technologies = {
     timeExperienced: "3 yrs.",
     experienceType: "Work Experience",
     description:
-      "Used Python while at WSIB's Innovation Lab to create a machine learning model using scikit-learn that determined whether or not a user was fatigued based only on their motion data."
+      "Used Python while at WSIB's Innovation Lab to create a machine learning model using scikit-learn that determined whether or not a user was fatigued based only on their motion data.",
   },
   swift: {
     displayName: "Swift",
@@ -121,14 +128,14 @@ export const technologies = {
     timeExperienced: "2 mos.",
     experienceType: "Work Experience",
     description:
-      "Developed a cross-platform app in Swift that connected an iPhone app to an Apple Watch app. Apple Watch data was passed in real-time to the iPhone and used as input data to a machine learning model."
+      "Developed a cross-platform app in Swift that connected an iPhone app to an Apple Watch app. Apple Watch data was passed in real-time to the iPhone and used as input data to a machine learning model.",
   },
   awsDynamoDB: {
     displayName: "DynamoDB",
     imageReference: AWSDynamoDB,
     timeExperienced: "1 mo.",
     experienceType: "Personal Projects",
-    description: "AWS DynamoDB was used as a backend for my Smash API project."
+    description: "AWS DynamoDB was used as a backend for my Smash API project.",
   },
   awsS3: {
     displayName: "AWS S3",
@@ -136,7 +143,7 @@ export const technologies = {
     timeExperienced: "2 mos.",
     experienceType: "Work Experience",
     description:
-      "S3 was used for file storing for both my work with WSIB, as well as for my Smash API project."
+      "S3 was used for file storing for both my work with WSIB, as well as for my Smash API project.",
   },
   awsSageMaker: {
     displayName: "SageMaker",
@@ -144,7 +151,7 @@ export const technologies = {
     timeExperienced: "1 mo.",
     experienceType: "Work Experience",
     description:
-      "SageMaker was used to train an SVM machine learning model with over 3,000 data points."
+      "SageMaker was used to train an SVM machine learning model with over 3,000 data points.",
   },
   c: {
     displayName: "C",
@@ -152,7 +159,7 @@ export const technologies = {
     timeExperienced: "3 yrs.",
     experienceType: "School Projects",
     description:
-      "I used C as the primary programming language for school projects. I have experience writing shared libraries in C that can be used for larger-scale applications."
+      "I used C as the primary programming language for school projects. I have experience writing shared libraries in C that can be used for larger-scale applications.",
   },
   typescript: {
     displayName: "TypeScript",
@@ -160,13 +167,13 @@ export const technologies = {
     timeExperienced: "1 mo.",
     experienceType: "Personal Projects",
     description:
-      "I used TypeScript as the primary programming language for my personal website (The one you're looking at right now!)."
+      "I used TypeScript as the primary programming language for my personal website (The one you're looking at right now!).",
   },
   java: {
     displayName: "Java",
     imageReference: Java,
     timeExperienced: "8 mos.",
     experienceType: "School Projects",
-    description: ""
-  }
+    description: "",
+  },
 };

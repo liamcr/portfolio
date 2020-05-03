@@ -14,15 +14,14 @@ const SkillsSection: React.FC = () => {
     "nodejs",
     "git",
     "awsLambda",
-    "docker",
-    "kubernetes",
+    "reactNative",
     "typescript",
     "swift",
     "awsDynamoDB",
     "awsS3",
     "awsSageMaker",
     "c",
-    "java"
+    "java",
   ];
 
   const largeScreen = useMediaQuery("(min-width:1050px)");
@@ -33,7 +32,7 @@ const SkillsSection: React.FC = () => {
     infinite: true,
     slidesToShow: largeScreen ? 3 : mediumScreen ? 2 : 1,
     arrows: true,
-    focusOnSelect: true
+    focusOnSelect: true,
   };
 
   return (
