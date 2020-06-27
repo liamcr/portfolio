@@ -8,7 +8,6 @@ import NodeJS from "../assets/technologyIcons/nodejs.svg";
 import Git from "../assets/technologyIcons/git.png";
 import AWSLambda from "../assets/technologyIcons/awsLambda.png";
 import Docker from "../assets/technologyIcons/docker.png";
-import Kubernetes from "../assets/technologyIcons/kubernetes.png";
 import Python from "../assets/technologyIcons/python.svg";
 import Swift from "../assets/technologyIcons/swift.svg";
 import AWSDynamoDB from "../assets/technologyIcons/dynamoDB.png";
@@ -105,14 +104,6 @@ export const technologies = {
     experienceType: "Work Experience",
     description:
       "Used Docker to containerize my projects during my term at WSIB's Innovation Lab.",
-  },
-  kubernetes: {
-    displayName: "Kubernetes",
-    imageReference: Kubernetes,
-    timeExperienced: "1 mo.",
-    experienceType: "Work Experience",
-    description:
-      "Used Kubernetes (along with Docker) to containerize projects at the WSIB Innovation Lab.",
   },
   python: {
     displayName: "Python",
