@@ -13,6 +13,7 @@ const SkillsSection: React.FC = () => {
     "python",
     "nodejs",
     "git",
+    "rubyOnRails",
     "awsLambda",
     "reactNative",
     "typescript",

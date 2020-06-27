@@ -8,7 +8,6 @@ import NodeJS from "../assets/technologyIcons/nodejs.svg";
 import Git from "../assets/technologyIcons/git.png";
 import AWSLambda from "../assets/technologyIcons/awsLambda.png";
 import Docker from "../assets/technologyIcons/docker.png";
-import Kubernetes from "../assets/technologyIcons/kubernetes.png";
 import Python from "../assets/technologyIcons/python.svg";
 import Swift from "../assets/technologyIcons/swift.svg";
 import AWSDynamoDB from "../assets/technologyIcons/dynamoDB.png";
@@ -17,12 +16,13 @@ import AWSSageMaker from "../assets/technologyIcons/awsSageMaker.png";
 import C from "../assets/technologyIcons/c.png";
 import TypeScript from "../assets/technologyIcons/typescript.png";
 import Java from "../assets/technologyIcons/java.png";
+import RubyOnRails from "../assets/technologyIcons/rubyOnRails.svg";
 
 export const technologies = {
   javascript: {
     displayName: "JavaScript",
     imageReference: JavaScript,
-    timeExperienced: "1 yr., 6 mos.",
+    timeExperienced: "2 yrs.",
     experienceType: "Work Experience",
     description:
       "Developed in JavaScript for my web-based personal projects, school projects, and I also have experience using it in a professional setting during my time at WSIB's Innovation Lab.",
@@ -30,7 +30,7 @@ export const technologies = {
   reactjs: {
     displayName: "React.js",
     imageReference: React,
-    timeExperienced: "8 mos.",
+    timeExperienced: "1 yr.",
     experienceType: "Work Experience",
     description:
       "Developed a couple of web-based personal projects using React, and used it heavily during my time at WSIB's Innovation Lab.",
@@ -38,7 +38,7 @@ export const technologies = {
   reactNative: {
     displayName: "React Native",
     imageReference: React,
-    timeExperienced: "3 mos.",
+    timeExperienced: "4 mos.",
     experienceType: "Personal Projects",
     description: "",
   },
@@ -61,7 +61,7 @@ export const technologies = {
   firebase: {
     displayName: "Firebase",
     imageReference: Firebase,
-    timeExperienced: "8 mos.",
+    timeExperienced: "1 yr.",
     experienceType: "Work Experience",
     description:
       "Used Firebase as the backend to my One Word Stories project. Also used it as a backend tool for the WSIB Innovation Lab's website.",
@@ -77,7 +77,7 @@ export const technologies = {
   nodejs: {
     displayName: "Node.js",
     imageReference: NodeJS,
-    timeExperienced: "4 mos.",
+    timeExperienced: "1 yr.",
     experienceType: "Personal Projects",
     description:
       "Used Node.js to develop my One Word Stories project. I also have experience using this for web-based school assignments.",
@@ -90,6 +90,13 @@ export const technologies = {
     description:
       "I use Git as the version control system for all of my personal and academic projects. I also used it during my time at both The Co-operators and WSIB's Innovation Lab.",
   },
+  rubyOnRails: {
+    displayName: "Ruby on Rails",
+    imageReference: RubyOnRails,
+    timeExperienced: "3 mos.",
+    experienceType: "Work Experience",
+    description: "",
+  },
   awsLambda: {
     displayName: "AWS Lambda",
     imageReference: AWSLambda,
@@ -101,18 +108,10 @@ export const technologies = {
   docker: {
     displayName: "Docker",
     imageReference: Docker,
-    timeExperienced: "1 mo.",
+    timeExperienced: "3 mo.",
     experienceType: "Work Experience",
     description:
       "Used Docker to containerize my projects during my term at WSIB's Innovation Lab.",
-  },
-  kubernetes: {
-    displayName: "Kubernetes",
-    imageReference: Kubernetes,
-    timeExperienced: "1 mo.",
-    experienceType: "Work Experience",
-    description:
-      "Used Kubernetes (along with Docker) to containerize projects at the WSIB Innovation Lab.",
   },
   python: {
     displayName: "Python",
@@ -164,7 +163,7 @@ export const technologies = {
   typescript: {
     displayName: "TypeScript",
     imageReference: TypeScript,
-    timeExperienced: "1 mo.",
+    timeExperienced: "4 mo.",
     experienceType: "Personal Projects",
     description:
       "I used TypeScript as the primary programming language for my personal website (The one you're looking at right now!).",
