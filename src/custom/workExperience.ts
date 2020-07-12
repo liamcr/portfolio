@@ -13,7 +13,7 @@ export const workExperience = [
     highlights: [
       "Utilized my skills in Ruby on Rails to assist in developing the backend of the company's site, and leveraged my experience with test-driven development to ensure stable code quality",
       "Implemented frontend features on a site viewed by over 100,000 users by applying my React and JavaScript skills",
-      "Developed microservice endpoints using a Python backend",
+      "Developed microservice endpoints using a Python backend for an international grade conversion service",
     ],
   },
   {
