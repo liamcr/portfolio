@@ -23,7 +23,7 @@ const ProjectPageContent: React.FC<ProjectPageContentProps> = ({ project }) => {
         alt="Project Icon"
         className="project-icon"
         style={{
-          right: isSmallScreen ? "5%" : "20%"
+          right: isSmallScreen ? "5%" : "20%",
         }}
       />
       <div className="project-page-header">{project.name}</div>
@@ -60,7 +60,9 @@ const ProjectPageContent: React.FC<ProjectPageContentProps> = ({ project }) => {
           onClick={() => handleLink(project.repoURL)}
           endIcon={<OpenInNew />}
         >
-          Visit Repo
+          {project.backendRepoURL !== undefined
+            ? "Visit Frontend Repo"
+            : "Visit Repo"}
         </Button>
       </div>
     </div>
