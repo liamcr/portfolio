@@ -64,6 +64,17 @@ const ProjectPageContent: React.FC<ProjectPageContentProps> = ({ project }) => {
             ? "Visit Frontend Repo"
             : "Visit Repo"}
         </Button>
+        {project.backendRepoURL && (
+          <Button
+            color="primary"
+            onClick={() =>
+              handleLink(project.backendRepoURL ? project.backendRepoURL : "#")
+            }
+            endIcon={<OpenInNew />}
+          >
+            Visit Backend Repo
+          </Button>
+        )}
       </div>
     </div>
   );

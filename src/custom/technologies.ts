@@ -17,6 +17,8 @@ import C from "../assets/technologyIcons/c.png";
 import TypeScript from "../assets/technologyIcons/typescript.png";
 import Java from "../assets/technologyIcons/java.png";
 import RubyOnRails from "../assets/technologyIcons/rubyOnRails.svg";
+import MongoDB from "../assets/technologyIcons/mongoDB.png";
+import NextJS from "../assets/technologyIcons/nextJS.svg";
 
 export const technologies = {
   javascript: {
@@ -173,6 +175,20 @@ export const technologies = {
     imageReference: Java,
     timeExperienced: "8 mos.",
     experienceType: "School Projects",
+    description: "",
+  },
+  mongoDB: {
+    displayName: "MongoDB",
+    imageReference: MongoDB,
+    timeExperienced: "1 yr.",
+    experienceType: "Personal Projects",
+    description: "",
+  },
+  nextJS: {
+    displayName: "Next.js",
+    imageReference: NextJS,
+    timeExperienced: "4 mos.",
+    experienceType: "Personal Projects",
     description: "",
   },
 };
