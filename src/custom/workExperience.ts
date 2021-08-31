@@ -14,7 +14,7 @@ export const workExperience = [
     highlights: [
       "Developed a proof-of-concept QR payment solution designed to be used by millions of users on a daily basis",
       "Leveraged my critical-thinking skills to effectively suggest new ideas and solutions during team design-thinking sessions",
-      "Presented various applications to dozens of stakeholders and company personnel on a regular basis in order to guage interest and gather valuable feedback",
+      "Presented various applications to dozens of stakeholders and company personnel on a regular basis in order to gauge interest and gather valuable feedback",
     ],
   },
   {
