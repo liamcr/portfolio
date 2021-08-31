@@ -13,18 +13,17 @@ const AboutSection: React.FC = () => {
         </div>
         <div className="about-content">
           Welcome to the site! I’m Liam Crocket, and I’m currently working
-          through my 3rd year in the University of Guelph’s Software Engineering
+          through my 4th year in the University of Guelph’s Software Engineering
           Program. I’m passionate about web development in particular, but am
           also interested in learning about all sorts of other development
           platforms, such as mobile or desktop development. On this site you can
           see how I’ve put this passion into my projects by visiting and
-          checking them out below! I currently have 3 co-op terms worth of
+          checking them out below! I currently have 5 co-op terms worth of
           experience under my belt (plus 1 internship!), with responsibilities
           including systems development, full-stack web development, and machine
-          learning engineering. I’m in the process of searching for an 8-month
-          co-op position for the winter 2021 term, so if you’re interested feel
-          free to reach out using any of the links listed in the contact section
-          below!
+          learning engineering. I’m in the process of searching for a full-time
+          position, so if you’re interested feel free to reach out using any of
+          the links listed in the contact section below!
         </div>
       </div>
     </div>

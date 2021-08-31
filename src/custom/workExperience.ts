@@ -1,9 +1,22 @@
+import InteracLogo from "../assets/companyLogos/interac.svg";
 import ApplyBoardLogo from "../assets/companyLogos/applyboard.png";
 import WSIBLogo from "../assets/companyLogos/wsib.png";
 import CooperatorsLogo from "../assets/companyLogos/cooperators.png";
 import NumeratorLogo from "../assets/companyLogos/numerator.png";
 
 export const workExperience = [
+  {
+    jobTitle: "Innovation Lab Developer (Co-op)",
+    company: "Interac",
+    location: "Kitchener, ON",
+    timeFrame: "Jan 2021 - Aug 2021",
+    companyImage: InteracLogo,
+    highlights: [
+      "Developed a proof-of-concept QR payment solution designed to be used by millions of users on a daily basis",
+      "Leveraged my critical-thinking skills to effectively suggest new ideas and solutions during team design-thinking sessions",
+      "Presented various applications to dozens of stakeholders and company personnel on a regular basis in order to gauge interest and gather valuable feedback",
+    ],
+  },
   {
     jobTitle: "Full-Stack Developer (Co-op)",
     company: "ApplyBoard",

@@ -36,7 +36,7 @@ const ContactSection: React.FC = () => {
                 endIcon={<OpenInNew />}
               >
                 <LinkedIn />
-                <div className="contact-button-text">{"William Crocket"}</div>
+                <div className="contact-button-text">{"Liam Crocket"}</div>
               </Button>
             </div>
           </Grid>
