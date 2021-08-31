@@ -1,3 +1,4 @@
+import TrainTrackPreview from "../assets/trainTrackPreview.png";
 import CardsPreview from "../assets/cardsPreview.png";
 import SmashAPI from "../assets/smashAPIPreview.png";
 import Musidex from "../assets/musidexPreview.png";
@@ -6,6 +7,18 @@ import PartyMixPreview from "../assets/partyMixPreview.png";
 
 export const featuredProjects = [
   {
+    title: "Train Track",
+    date: "Summer 2020 - Summer 2021",
+    technologies: ["reactjs", "mongoDB"],
+    description:
+      "Train track is a social-networking platform with a focus on sharing workouts. The website uses React with Next.js on the frontend, utilizing server-side rendering to yield faster load-times and better SEO. The backend uses Mongo DB to keep track of all workouts, exercises, and users, along with an express.js API to connect it to the frontend. The site allows users to keep track of their workouts, and follow their friends to stay updated on their workouts. If you're impressed with a friend's workout, you can like and comment on it to show your support. Click the \"live demo\" button below to check it out!",
+    imageReference: TrainTrackPreview,
+    projectPageURL: "/trainTrack",
+    url: "https://traintrack.ca/",
+    repoURL: "https://github.com/liamcr/train-track-frontend",
+    backendRepoURL: "https://github.com/liamcr/train-track-backend",
+  },
+  {
     title: "Crocket's Classic Cards",
     date: "Spring 2020",
     technologies: ["reactNative", "firebase"],
@@ -13,8 +26,7 @@ export const featuredProjects = [
       'Crocket\'s Classic Cards is an app that lets you play classic card games with friends without the need for a physical deck of cards. Currently, the app includes Go Fish, Crazy Eights, and President. The app uses the Firebase Android SDK to manage up to 10,000 games at once and provides each one with real-time updates so users can see the most up-to-date state of their game at all times. The app is live on the Google Play store, so click the "Live Demo" button below to download the app and play cards with your friends!',
     imageReference: CardsPreview,
     projectPageURL: "/crocketsClassicCards",
-    url:
-      "https://play.google.com/store/apps/details?id=com.crocketsclassiccards",
+    url: "https://play.google.com/store/apps/details?id=com.crocketsclassiccards",
     repoURL: "https://github.com/liamcr/cards-app",
   },
   {

@@ -3,14 +3,48 @@ import OneWordStoriesIcon from "../assets/oneWordStoriesIcon.svg";
 import MusicpediaIcon from "../assets/musicpediaIcon.svg";
 import SmashAPIIcon from "../assets/smashAPIIcon.svg";
 import CardsIcon from "../assets/cardsIcon.png";
+import TrainTrackIcon from "../assets/trainTrackIcon.png";
 
 export const projects = {
+  trainTrack: {
+    name: "Train Track",
+    date: "Summer 2020 - Summer 2021",
+    technologies: ["reactjs", "mongoDB", "nextJS", "nodejs", "git"],
+    url: "https://traintrack.ca/",
+    repoURL: "https://github.com/liamcr/train-track-frontend",
+    backendRepoURL: "https://github.com/liamcr/train-track-backend",
+    colour: "hsl(204, 100%, 50%)",
+    icon: TrainTrackIcon,
+    sections: [
+      {
+        header: "About the Project",
+        bodyParagraphs: [
+          "Train track is a social-networking platform with a focus on sharing workouts. The website uses React with Next.js on the frontend, utilizing server-side rendering to yield faster load-times and better SEO. The backend uses Mongo DB to keep track of all workouts, exercises, and users, along with an Express API to connect it to the frontend. The site allows users to keep track of their workouts, and follow their friends to stay updated on their workouts. If you're impressed with a friend's workout, you can like and comment on it to show your support. Click the \"live demo\" button below to check it out!",
+        ],
+      },
+      {
+        header: "Behind the Idea",
+        bodyParagraphs: [
+          "Although working out and exercising is often an individual experience, there are still large social factors to it that I thought could be explored in a project. For example, if I get a personal record that I've been trying to achieve for a long time, the first thing I want to do is tell my friends about it. On the same note, it's always really exciting to hear about one of your friends accomplishing something that they're proud of.",
+          "With that in mind I thought it would be a good idea to develop some sort of social network that made it easier for people to share their accomplishments pertaining to working out. I took a lot of inspiration from the structure of Strava, but rather than focusing solely on cardio, I generalized it to include support for most other forms of exercise.",
+        ],
+      },
+      {
+        header: "What I Learned",
+        bodyParagraphs: [
+          "This was my first experience developing a fleshed-out backend for a side project (i.e. creating a well thought-out database schema and attaching a custom-built API to it), so there was a lot to be learned in that regard. I was introduced to the MERN stack (MongoDB, Express, React, Node) just before starting development on the project, so my database of choice was Mongo DB. I've had experiences with NoSQL databases in the past, so I didn't have too much difficulty picking up on it, but there was still much to learn, specifically in connecting it to an Express API.",
+          "This project was also my first experience developing an API using Express, which required me to learn a lot about using proper HTTP methods for each endpoint, writing idiomatic endpoint URLs, and writing efficient backend code. All of those are essential for developing a good API, and it has really helped me round out my full-stack development skills.",
+          "On the frontend I also had my first experience with Next.js, and server-side rendering in general. This was certainly the technology that I had the least familiarity with on this project, and there were a few concepts that took a while to fully understand. For example, learning and choosing between the different data-fetching strategies, or differentiating between the API calls that should be done client-side vs the API calls that should be done server-side.",
+          "Eventually everything clicked, and going forward I think server-side rendering will be my strategy of choice for my web projects.",
+        ],
+      },
+    ],
+  },
   crocketsClassicCards: {
     name: "Crocket's Classic Cards",
     date: "Spring 2020",
     technologies: ["reactNative", "firebase", "javascript", "nodejs", "git"],
-    url:
-      "https://play.google.com/store/apps/details?id=com.crocketsclassiccards",
+    url: "https://play.google.com/store/apps/details?id=com.crocketsclassiccards",
     repoURL: "https://github.com/liamcr/cards-app",
     colour: "hsl(336, 100%, 50%)",
     icon: CardsIcon,

@@ -16,6 +16,7 @@ export interface ProjectObj {
   projectPageURL: string;
   url: string;
   repoURL: string;
+  backendRepoURL?: string;
 }
 
 interface Section {
@@ -32,4 +33,5 @@ export interface FullProjectObj {
   icon: string;
   url: string;
   repoURL: string;
+  backendRepoURL?: string;
 }

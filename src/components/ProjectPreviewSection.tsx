@@ -12,7 +12,7 @@ type ProjectPreviewProps = {
 
 const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
   projectObj,
-  imageOnLeft
+  imageOnLeft,
 }) => {
   const handleLink = (url: string) => {
     window.open(url);
@@ -34,7 +34,7 @@ const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
         style={{
           padding: `0 ${imageOnLeft ? "0" : "48px"} 0 ${
             imageOnLeft ? "48px" : "0"
-          }`
+          }`,
         }}
       >
         <div className="project-preview-header">{projectObj.title}</div>
@@ -63,8 +63,21 @@ const ProjectPreviewSection: React.FC<ProjectPreviewProps> = ({
             onClick={() => handleLink(projectObj.repoURL)}
             endIcon={<OpenInNew />}
           >
-            Visit Repo
+            {projectObj.backendRepoURL ? "Visit Frontend Repo" : "Visit Repo"}
           </Button>
+          {projectObj.backendRepoURL && (
+            <Button
+              color="primary"
+              onClick={() =>
+                handleLink(
+                  projectObj.backendRepoURL ? projectObj.backendRepoURL : "#"
+                )
+              }
+              endIcon={<OpenInNew />}
+            >
+              Visit Backend Repo
+            </Button>
+          )}
         </div>
       </div>
       {!imageOnLeft && (
