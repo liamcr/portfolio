@@ -32,7 +32,7 @@ export const technologies = {
   reactjs: {
     displayName: "React.js",
     imageReference: React,
-    timeExperienced: "2 yr.",
+    timeExperienced: "2 yrs.",
     experienceType: "Work Experience",
     description:
       "Developed a couple of web-based personal projects using React, and used it heavily during my time at WSIB's Innovation Lab.",
@@ -63,7 +63,7 @@ export const technologies = {
   firebase: {
     displayName: "Firebase",
     imageReference: Firebase,
-    timeExperienced: "2 yr.",
+    timeExperienced: "2 yrs.",
     experienceType: "Work Experience",
     description:
       "Used Firebase as the backend to my One Word Stories project. Also used it as a backend tool for the WSIB Innovation Lab's website.",
@@ -79,7 +79,7 @@ export const technologies = {
   nodejs: {
     displayName: "Node.js",
     imageReference: NodeJS,
-    timeExperienced: "2 yr.",
+    timeExperienced: "2 yrs.",
     experienceType: "Work Experience",
     description:
       "Used Node.js to develop my One Word Stories project. I also have experience using this for web-based school assignments.",
