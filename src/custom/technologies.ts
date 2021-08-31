@@ -19,6 +19,7 @@ import Java from "../assets/technologyIcons/java.png";
 import RubyOnRails from "../assets/technologyIcons/rubyOnRails.svg";
 import MongoDB from "../assets/technologyIcons/mongoDB.png";
 import NextJS from "../assets/technologyIcons/nextJS.svg";
+import Flutter from "../assets/technologyIcons/flutter.svg";
 
 export const technologies = {
   javascript: {
@@ -189,6 +190,13 @@ export const technologies = {
     imageReference: NextJS,
     timeExperienced: "4 mos.",
     experienceType: "Personal Projects",
+    description: "",
+  },
+  flutter: {
+    displayName: "Flutter",
+    imageReference: Flutter,
+    timeExperienced: "4 mos.",
+    experienceType: "Work Experience",
     description: "",
   },
 };
