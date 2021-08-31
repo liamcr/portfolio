@@ -24,7 +24,7 @@ export const technologies = {
   javascript: {
     displayName: "JavaScript",
     imageReference: JavaScript,
-    timeExperienced: "2 yrs.",
+    timeExperienced: "3 yrs.",
     experienceType: "Work Experience",
     description:
       "Developed in JavaScript for my web-based personal projects, school projects, and I also have experience using it in a professional setting during my time at WSIB's Innovation Lab.",
@@ -32,7 +32,7 @@ export const technologies = {
   reactjs: {
     displayName: "React.js",
     imageReference: React,
-    timeExperienced: "1 yr.",
+    timeExperienced: "2 yr.",
     experienceType: "Work Experience",
     description:
       "Developed a couple of web-based personal projects using React, and used it heavily during my time at WSIB's Innovation Lab.",
@@ -40,8 +40,8 @@ export const technologies = {
   reactNative: {
     displayName: "React Native",
     imageReference: React,
-    timeExperienced: "4 mos.",
-    experienceType: "Personal Projects",
+    timeExperienced: "8 mos.",
+    experienceType: "Work Experience",
     description: "",
   },
   materialUI: {
@@ -63,7 +63,7 @@ export const technologies = {
   firebase: {
     displayName: "Firebase",
     imageReference: Firebase,
-    timeExperienced: "1 yr.",
+    timeExperienced: "2 yr.",
     experienceType: "Work Experience",
     description:
       "Used Firebase as the backend to my One Word Stories project. Also used it as a backend tool for the WSIB Innovation Lab's website.",
@@ -79,15 +79,15 @@ export const technologies = {
   nodejs: {
     displayName: "Node.js",
     imageReference: NodeJS,
-    timeExperienced: "1 yr.",
-    experienceType: "Personal Projects",
+    timeExperienced: "2 yr.",
+    experienceType: "Work Experience",
     description:
       "Used Node.js to develop my One Word Stories project. I also have experience using this for web-based school assignments.",
   },
   git: {
     displayName: "Git",
     imageReference: Git,
-    timeExperienced: "2 yrs.",
+    timeExperienced: "4 yrs.",
     experienceType: "Work Experience",
     description:
       "I use Git as the version control system for all of my personal and academic projects. I also used it during my time at both The Co-operators and WSIB's Innovation Lab.",
@@ -110,7 +110,7 @@ export const technologies = {
   docker: {
     displayName: "Docker",
     imageReference: Docker,
-    timeExperienced: "3 mo.",
+    timeExperienced: "1 yr.",
     experienceType: "Work Experience",
     description:
       "Used Docker to containerize my projects during my term at WSIB's Innovation Lab.",
@@ -141,7 +141,7 @@ export const technologies = {
   awsS3: {
     displayName: "AWS S3",
     imageReference: AWSS3,
-    timeExperienced: "2 mos.",
+    timeExperienced: "6 mos.",
     experienceType: "Work Experience",
     description:
       "S3 was used for file storing for both my work with WSIB, as well as for my Smash API project.",
@@ -165,8 +165,8 @@ export const technologies = {
   typescript: {
     displayName: "TypeScript",
     imageReference: TypeScript,
-    timeExperienced: "4 mo.",
-    experienceType: "Personal Projects",
+    timeExperienced: "1 yr.",
+    experienceType: "Work Experience",
     description:
       "I used TypeScript as the primary programming language for my personal website (The one you're looking at right now!).",
   },
