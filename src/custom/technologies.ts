@@ -20,12 +20,15 @@ import RubyOnRails from "../assets/technologyIcons/rubyOnRails.svg";
 import MongoDB from "../assets/technologyIcons/mongoDB.png";
 import NextJS from "../assets/technologyIcons/nextJS.svg";
 import Flutter from "../assets/technologyIcons/flutter.svg";
+import Golang from "../assets/technologyIcons/go.svg";
+import Kubernetes from "../assets/technologyIcons/k8s.svg";
+import Kafka from "../assets/technologyIcons/kafka.svg";
 
 export const technologies = {
   javascript: {
     displayName: "JavaScript",
     imageReference: JavaScript,
-    timeExperienced: "3 yrs.",
+    timeExperienced: "5 yrs.",
     experienceType: "Work Experience",
     description:
       "Developed in JavaScript for my web-based personal projects, school projects, and I also have experience using it in a professional setting during my time at WSIB's Innovation Lab.",
@@ -33,10 +36,10 @@ export const technologies = {
   reactjs: {
     displayName: "React.js",
     imageReference: React,
-    timeExperienced: "2 yrs.",
+    timeExperienced: "4 yrs.",
     experienceType: "Work Experience",
     description:
-      "Developed a couple of web-based personal projects using React, and used it heavily during my time at WSIB's Innovation Lab.",
+      "Developed a couple of web-based personal projects using React, and used it heavily during various work positions.",
   },
   reactNative: {
     displayName: "React Native",
@@ -80,7 +83,7 @@ export const technologies = {
   nodejs: {
     displayName: "Node.js",
     imageReference: NodeJS,
-    timeExperienced: "2 yrs.",
+    timeExperienced: "4 yrs.",
     experienceType: "Work Experience",
     description:
       "Used Node.js to develop my One Word Stories project. I also have experience using this for web-based school assignments.",
@@ -88,7 +91,7 @@ export const technologies = {
   git: {
     displayName: "Git",
     imageReference: Git,
-    timeExperienced: "4 yrs.",
+    timeExperienced: "6 yrs.",
     experienceType: "Work Experience",
     description:
       "I use Git as the version control system for all of my personal and academic projects. I also used it during my time at both The Co-operators and WSIB's Innovation Lab.",
@@ -96,7 +99,7 @@ export const technologies = {
   rubyOnRails: {
     displayName: "Ruby on Rails",
     imageReference: RubyOnRails,
-    timeExperienced: "3 mos.",
+    timeExperienced: "6 mos.",
     experienceType: "Work Experience",
     description: "",
   },
@@ -111,7 +114,7 @@ export const technologies = {
   docker: {
     displayName: "Docker",
     imageReference: Docker,
-    timeExperienced: "1 yr.",
+    timeExperienced: "3 yr.",
     experienceType: "Work Experience",
     description:
       "Used Docker to containerize my projects during my term at WSIB's Innovation Lab.",
@@ -119,7 +122,7 @@ export const technologies = {
   python: {
     displayName: "Python",
     imageReference: Python,
-    timeExperienced: "3 yrs.",
+    timeExperienced: "5 yrs.",
     experienceType: "Work Experience",
     description:
       "Used Python while at WSIB's Innovation Lab to create a machine learning model using scikit-learn that determined whether or not a user was fatigued based only on their motion data.",
@@ -142,7 +145,7 @@ export const technologies = {
   awsS3: {
     displayName: "AWS S3",
     imageReference: AWSS3,
-    timeExperienced: "6 mos.",
+    timeExperienced: "1 yr.",
     experienceType: "Work Experience",
     description:
       "S3 was used for file storing for both my work with WSIB, as well as for my Smash API project.",
@@ -166,7 +169,7 @@ export const technologies = {
   typescript: {
     displayName: "TypeScript",
     imageReference: TypeScript,
-    timeExperienced: "1 yr.",
+    timeExperienced: "3 yr.",
     experienceType: "Work Experience",
     description:
       "I used TypeScript as the primary programming language for my personal website (The one you're looking at right now!).",
@@ -174,21 +177,21 @@ export const technologies = {
   java: {
     displayName: "Java",
     imageReference: Java,
-    timeExperienced: "8 mos.",
-    experienceType: "School Projects",
+    timeExperienced: "1 Yr.",
+    experienceType: "Work Experience",
     description: "",
   },
   mongoDB: {
     displayName: "MongoDB",
     imageReference: MongoDB,
-    timeExperienced: "1 yr.",
+    timeExperienced: "2 yr.",
     experienceType: "Personal Projects",
     description: "",
   },
   nextJS: {
     displayName: "Next.js",
     imageReference: NextJS,
-    timeExperienced: "4 mos.",
+    timeExperienced: "8 mos.",
     experienceType: "Personal Projects",
     description: "",
   },
@@ -196,6 +199,27 @@ export const technologies = {
     displayName: "Flutter",
     imageReference: Flutter,
     timeExperienced: "4 mos.",
+    experienceType: "Work Experience",
+    description: "",
+  },
+  golang: {
+    displayName: "Go",
+    imageReference: Golang,
+    timeExperienced: "1 yr.",
+    experienceType: "Work Experience",
+    description: "",
+  },
+  kubernetes: {
+    displayName: "Kubernetes",
+    imageReference: Kubernetes,
+    timeExperienced: "2 yrs.",
+    experienceType: "Work Experience",
+    description: "",
+  },
+  kafka: {
+    displayName: "Kafka",
+    imageReference: Kafka,
+    timeExperienced: "1 yr.",
     experienceType: "Work Experience",
     description: "",
   },

@@ -9,19 +9,14 @@ const SkillsSection: React.FC = () => {
   const skillIDs = [
     "javascript",
     "reactjs",
-    "firebase",
     "typescript",
-    "python",
+    "golang",
     "nodejs",
+    "kubernetes",
     "git",
     "nextJS",
-    "rubyOnRails",
-    "reactNative",
-    "flutter",
-    "swift",
+    "kafka",
     "mongoDB",
-    "c",
-    "java",
   ];
 
   const largeScreen = useMediaQuery("(min-width:1050px)");
