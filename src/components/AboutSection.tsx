@@ -12,14 +12,13 @@ const AboutSection: React.FC = () => {
           <img className="about-image" src={AboutImage} alt="Me" />
         </div>
         <div className="about-content">
-          Welcome to the site! I’m Liam Crocket, and I’m currently working
-          through my 4th year in the University of Guelph’s Software Engineering
-          Program. I’m passionate about web development in particular, but am
-          also interested in learning about all sorts of other development
-          platforms, such as mobile or desktop development. On this site you can
-          see how I’ve put this passion into my projects by visiting and
-          checking them out below! I currently have 5 co-op terms worth of
-          experience under my belt (plus 1 internship!), with responsibilities
+          Welcome to the site! I’m Liam Crocket, and I’m currently working full
+          time as a Software Developer at Auvik Networks. I’m passionate about
+          both web and backend development, with experience ranging from
+          languages such as Typescipt and Go, to systems such as Docker and
+          Kubernetes. On this site you can see how I’ve put this passion into my
+          projects by visiting and checking them out below! I currently have
+          over 3 years of professional experience, with responsibilities
           including systems development, full-stack web development, and machine
           learning engineering. I’m in the process of searching for a full-time
           position, so if you’re interested feel free to reach out using any of
